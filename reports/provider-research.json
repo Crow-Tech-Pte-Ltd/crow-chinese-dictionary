@@ -1,0 +1,132 @@
+{
+  "retrieved_date_local": "2026-10-23",
+  "retrieved_at_utc": "2026-10-23T08:27:14.779866+00:00",
+  "credentials_read": false,
+  "inference_requests_made": 0,
+  "spend_usd": 0,
+  "minimax": {
+    "protocol": "OpenAI-compatible",
+    "base_url": "https://api.minimax.io/v1",
+    "chat_path": "/chat/completions",
+    "subscription_quota_url": "https://www.minimax.io/v1/token_plan/remains",
+    "current_model": "MiniMax-M3.1-Flash",
+    "context_tokens_documented": 1000000,
+    "request_recommendations": {
+      "reasoning_effort": "low",
+      "max_completion_tokens": "explicit hard cap; includes thinking tokens",
+      "thinking": "cannot disable for Flash",
+      "response_format": "Not documented in official OpenAPI request properties; use prompt instructions plus strict local JSON/schema validation unless pilot proves support."
+    },
+    "plan_findings": "Current official Token Plan paths redirect to M Plan. Legacy Token Plan may be retained. Subscription Keys and PAYG keys are not interchangeable. Subscription Key uses included quota then any credit packs, not PAYG account balance. Quota has 5-hour and weekly windows. Individual interactive developer use is documented; PAYG recommended for production. Writing/research are documented uses, and no categorical noncoding ban was found, but unrestricted batch production permission was not established. Begin small, stop on exhaustion/throttling; never silently substitute PAYG.",
+    "payg_usd_per_million": {
+      "input": 0.15,
+      "output": 0.6,
+      "cache_read": 0.015
+    },
+    "sources": [
+      "https://platform.minimax.io/docs/m-plan/intro",
+      "https://platform.minimax.io/docs/m-plan/faq",
+      "https://platform.minimax.io/docs/m-plan/token-plan-notice",
+      "https://platform.minimax.io/docs/m-plan/other-tools",
+      "https://platform.minimax.io/docs/api-reference/text-openai-api",
+      "https://platform.minimax.io/docs/api-reference/text/api/openapi-chat-openai.json",
+      "https://platform.minimax.io/docs/pricing/overview"
+    ],
+    "uncertainties": [
+      "User key type/region/quota not inspected.",
+      "Official terms page redirects to a JS page with no extractable body; old third-party claims about coding-only rules were not treated as authoritative.",
+      "Native structured JSON support not promised by fetched schema.",
+      "Subscription credit-pack overflow must be checked before treating use as zero incremental spend."
+    ]
+  },
+  "openrouter": {
+    "base_url": "https://openrouter.ai/api/v1",
+    "chat_path": "/chat/completions",
+    "public_models_url": "https://openrouter.ai/api/v1/models",
+    "example_draft_model": "qwen/qwen3.5-flash-02-23",
+    "example_checker_model": "minimax/minimax-m3.1-flash",
+    "important_pricing_units": "Public models API prices are USD per token; provider.max_price bounds are USD per MILLION tokens. Pricing can vary by actual provider endpoint.",
+    "request_recommendations": {
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "dictionary_entries",
+          "strict": true,
+          "schema": "explicit schema, required fields and additionalProperties:false"
+        }
+      },
+      "provider": {
+        "sort": "price",
+        "require_parameters": true,
+        "data_collection": "deny",
+        "max_price": {
+          "prompt": 0.1,
+          "completion": 0.6
+        }
+      },
+      "usage": {
+        "include": true
+      }
+    },
+    "notes": [
+      "Check support per endpoint, not only per model. Strict JSON can still require local validation.",
+      "Pin explicit model ID and pricing ceiling. No silent model/provider policy fallback.",
+      "Optionally add zdr:true, but expect no eligible endpoint rather than weakening privacy policy.",
+      "If public corpus may later be used for training, consider enforce_distillable_text:true; absence does not establish training permission.",
+      "Reserve worst-case input/output costs before dispatch in one shared ledger; reconcile actual usage and generation cost. Retries and uncertain/time-out requests retain reservation until reconciled.",
+      "No full-corpus completion guarantee can be inferred from $23. Measure pilot output, reasoning and checker costs."
+    ],
+    "sources": [
+      "https://openrouter.ai/api/v1/models",
+      "https://openrouter.ai/docs/guides/routing/provider-selection",
+      "https://openrouter.ai/docs/guides/features/structured-outputs",
+      "https://openrouter.ai/docs/guides/privacy/data-collection",
+      "https://openrouter.ai/pricing",
+      "https://openrouter.ai/support"
+    ]
+  },
+  "licensing": {
+    "proposed_code_license": "MIT for original pipeline code only.",
+    "proposed_data_license": "CC BY-SA 4.0 for compatible derived dictionary records, preserving per-record upstream source and original licences; no blanket relicensing of raw sources.",
+    "block_gloss_sources": [
+      "moe-revised",
+      "moe-concise",
+      "moe-idioms"
+    ],
+    "machine_translated_sources": [
+      "cvdict",
+      "cedict-es-ai",
+      "handedict-en-ai"
+    ],
+    "findings": [
+      "CC BY-SA 3.0 section 4(b) permits adaptations under a later version with the same elements; retain original notices.",
+      "Source licence permission and lexical correctness are separate checks.",
+      "A headword lead from a restricted source needs independent permissible attestation before entering a public derivative; do not launder a restricted gloss through AI paraphrase.",
+      "WordNet packs preserve mixed component licences in WORDNET_NOTICES.txt and wordnet-source.tar.gz. Review them before public export.",
+      "Existing machine-translated sources must be marked as such and not counted as independent multilingual proof.",
+      "Do not label generated translations as human-reviewed or fully original when based on share-alike source definitions."
+    ],
+    "primary_sources": [
+      "https://creativecommons.org/licenses/by-sa/3.0/legalcode.en",
+      "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
+      "https://creativecommons.org/licenses/by-nd/3.0/tw/deed.en"
+    ],
+    "local_evidence": [
+      "public/data/catalog.json",
+      "public/data/DICTIONARY_NOTICES.txt",
+      "public/data/WORDNET_NOTICES.txt",
+      "public/data/AI_DICTIONARY_NOTICES.txt",
+      "public/data/LANGUAGE_DICTIONARY_NOTICES.txt",
+      "public/data/moe-revised-NOTICE.txt",
+      "public/data/moe-concise-NOTICE.txt",
+      "public/data/moe-idioms-NOTICE.txt"
+    ]
+  },
+  "pipeline_gates": [
+    "Read only explicitly provided key paths, never copy keys to public project or print headers.",
+    "Keep raw model outputs in a gitignored staging area with request/model/prompt/provenance hashes and actual token usage.",
+    "Validate fixed identity/headword/reading and source references; model must not invent sources/readings.",
+    "Use independent checker plus evidence agreement; disagreements go to review queue, not accepted manifest.",
+    "Public export contains no ND-derived glosses, missing licence dependencies, private logs, credentials or account/quota data."
+  ]
+}

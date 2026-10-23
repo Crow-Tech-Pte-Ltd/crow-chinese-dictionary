@@ -1,0 +1,26 @@
+{
+  "containsSyntheticDefinitions": true,
+  "definitionOrigins": {
+    "model_generated": 288,
+    "source_imported": 40682
+  },
+  "format": "crow-chinese-dictionary/1",
+  "installation": "Explicit opt-in. Import by source id; removal must preserve personal cards/books/notes. No website mutation is performed by this exporter.",
+  "packs": [
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 40970,
+      "definitionOrigins": {
+        "model_generated": 288,
+        "source_imported": 40682
+      },
+      "disabledByDefault": true,
+      "file": "website/en.json.gz",
+      "id": "crow-en",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "en"
+    }
+  ]
+}

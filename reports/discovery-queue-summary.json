@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "sourceFingerprint": "3a057b178d6972e1ec8a17a6e28cba79ecf2e7300fafef4b9a1bf5f8400b1215",
+  "targetLanguage": "en",
+  "countUnit": "distinct (spokenLanguage, resolved canonicalWord) heads",
+  "sampleLimitPerQueuePerSpokenLanguage": 1000,
+  "generationEligible": false,
+  "defaultEnglishSourceIds": [
+    "cedict",
+    "phrasebook-en"
+  ],
+  "warnings": [
+    "Categories can overlap; adding their counts does not give a unique missing-word total.",
+    "Counts describe this supplied reference universe, not an exact Pleco comparison or proof of complete vocabulary coverage.",
+    "Canonical-key absence can still be a script-alias or reading-resolution issue. Inventory.jobs has additional alias, source-quality and frequency gates.",
+    "Reading and sense leads are unverified; they do not prove a missing pronunciation or English meaning.",
+    "No source definitions, ND snippets, secrets or model prompts are exported. No paid generation is authorised by these queues."
+  ],
+  "queues": {
+    "unresolved_english_reading": {
+      "label": "English canonical head absent, with unresolved permitted definition evidence",
+      "description": "At least one permitted non-AI full-definition source row has a missing, ambiguous or invalid reading, and the canonical head has no baseline English definition. Other source rows for the head can already have readings.",
+      "warning": "Resolve source readings and aliases before treating these as publishable missing words. Invalid readings are held alongside missing/ambiguous readings.",
+      "countsBySpokenLanguage": {
+        "cmn": 14353,
+        "yue": 0
+      },
+      "totalHeads": 14353,
+      "exportedSamplesBySpokenLanguage": {
+        "cmn": 1000,
+        "yue": 0
+      },
+      "sampleFile": "unresolved_english_reading.jsonl.gz",
+      "generationEligible": false
+    },
+    "additional_reading_lead": {
+      "label": "Existing English head with an unmatched foreign-source reading lead",
+      "description": "The English head already exists. A permitted non-AI foreign-language definition has an indexed reading not represented by the English head at the exact same normalized reading.",
+      "warning": "UNVERIFIED reading lead, not a proven missing pronunciation or meaning. Sandhi, regional conventions, source errors and notation differences can explain the difference.",
+      "countsBySpokenLanguage": {
+        "cmn": 4076,
+        "yue": 0
+      },
+      "totalHeads": 4076,
+      "exportedSamplesBySpokenLanguage": {
+        "cmn": 1000,
+        "yue": 0
+      },
+      "sampleFile": "additional_reading_lead.jsonl.gz",
+      "generationEligible": false
+    },
+    "machine_only_english": {
+      "label": "Existing English coverage supplied only by machine-translated packs",
+      "description": "The English canonical head exists in baseline packs, and none of those English definitions is from a non-machine-translated pack.",
+      "warning": "Quality-upgrade queue, not a missing-word queue. Existing AI definitions prevent duplicate automatic paid generation.",
+      "countsBySpokenLanguage": {
+        "cmn": 80150,
+        "yue": 0
+      },
+      "totalHeads": 80150,
+      "exportedSamplesBySpokenLanguage": {
+        "cmn": 1000,
+        "yue": 0
+      },
+      "sampleFile": "machine_only_english.jsonl.gz",
+      "generationEligible": false
+    },
+    "available_optional_english": {
+      "label": "English coverage already available outside the default two packs",
+      "description": "The English canonical head exists in baseline packs but not in CC-CEDICT or the phrase supplement. Availability is independent of a particular user enabling/downloading the pack.",
+      "warning": "No new paid definition is needed merely to expose an existing optional pack. Some optional coverage is machine-translated; inspect source quality.",
+      "countsBySpokenLanguage": {
+        "cmn": 85739,
+        "yue": 29468
+      },
+      "totalHeads": 115207,
+      "exportedSamplesBySpokenLanguage": {
+        "cmn": 1000,
+        "yue": 1000
+      },
+      "sampleFile": "available_optional_english.jsonl.gz",
+      "generationEligible": false
+    },
+    "supplemental_new_head": {
+      "label": "Raw/HSK supplemental canonical heads absent from all baseline languages",
+      "description": "A permitted raw original or HSK supplement supplies a canonical head that does not appear in any baseline dictionary, across all definition languages.",
+      "warning": "Source-backed discovery lead, not automatically an accepted new word. Source errors, script aliases, missing readings and nonlexical expressions still need review.",
+      "countsBySpokenLanguage": {
+        "cmn": 245,
+        "yue": 0
+      },
+      "totalHeads": 245,
+      "exportedSamplesBySpokenLanguage": {
+        "cmn": 245,
+        "yue": 0
+      },
+      "sampleFile": "supplemental_new_head.jsonl.gz",
+      "generationEligible": false
+    },
+    "additional_sense_lead": {
+      "label": "Existing English heads with unmatched explicit foreign sense anchors",
+      "description": "Only explicit source sense IDs/synset anchors are considered. An unmatched foreign anchor identifies something to compare, not a demonstrated missing English sense.",
+      "warning": "Absence of an English sense-ID mapping DOES NOT prove a missing English meaning. Most sources do not align their sense IDs. Component-review sources are discovery metadata only.",
+      "countsBySpokenLanguage": {
+        "cmn": 38811,
+        "yue": 0
+      },
+      "totalHeads": 38811,
+      "exportedSamplesBySpokenLanguage": {
+        "cmn": 1000,
+        "yue": 0
+      },
+      "sampleFile": "additional_sense_lead.jsonl.gz",
+      "generationEligible": false
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "automaticChecksAreHumanReview": false,
+  "counts": {
+    "accepted": 40970,
+    "humanReviewed": 0,
+    "invalidDrafts": 9,
+    "jobs": 41023,
+    "machineChecked": 288,
+    "notGenerated": 27,
+    "pending": 53,
+    "sourceImported": 40682,
+    "validDrafts": 40987
+  },
+  "format": "crow-chinese-dictionary/1",
+  "includeMachineChecked": true,
+  "includeSourceImports": true
+}

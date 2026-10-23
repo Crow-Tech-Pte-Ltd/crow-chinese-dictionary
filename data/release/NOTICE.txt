@@ -1,0 +1,128 @@
+Crow Chinese Dictionary
+Derived dictionary records: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Original source rights and notices remain applicable. Model-generated text is labelled; automatic checks are not human review.
+Individual article URLs and source record identifiers are retained with each entry in entries.jsonl.gz.
+
+cc-cidict
+CC-CEDICT contributors; Harmony Mandarin; CC-CIDICT community
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: 1.27 · 2026-09-26
+
+cfdict
+David Houstin / Chine Informations contributors
+Source article URLs: see each entry.
+CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+Snapshot: 2024-12-14
+
+chdict
+Gábor L Ugray / CHDICT contributors
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: 2026-06-23
+
+handedict
+Gábor L Ugray / HanDeDict contributors
+https://handedict.zydeo.net/
+CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+Snapshot: 2026-10-09
+
+raw-wiktionary-cs
+Czech Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: original-sha256:a90dd2570a4eec542f4c79bab098d5ecc1218bb40e4463dc1a8d6026455a069f
+
+raw-wiktionary-fr
+French Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: original-sha256:3bb75723facd7e194dc9cff7cd18a96f5e6fb6c7f25dbaaaee5d21782bb428ad
+
+raw-wiktionary-it
+Italian Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: original-sha256:dfa6ddb1d10267686ce4ebbccc6ff93cf97542fcfcac4afcb7b5e4393e5377c2
+
+raw-wiktionary-ja
+Japanese Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: original-sha256:9df42603532e5b596aacf8bb424982bef464fb8a221653c73e66532bf531988c
+
+raw-wiktionary-ko
+Korean Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: original-sha256:4eb06b4f1b1d55137099619db7b31f939b79c18c15cfc9652e4d27d1861c52f3
+
+raw-wiktionary-pt
+Portuguese Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: original-sha256:6c9855aeab5ba9a168df79fb8ca1ae52ca548a42dd7086b4b43fcb43e235e954
+
+raw-wiktionary-vi
+Vietnamese Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: original-sha256:2a924292f5a2de0d4036618c6664d092d9588f7aa8274a7abe30d858e0ed32d0
+
+wiktionary-cs
+Czech Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: 2026-10-03 · dump 2026-10-01 · import 2026-10-15
+
+wiktionary-en-upstream
+English Wiktionary contributors; extracted and postprocessed by Kaikki / Wiktextract (Tatu Ylonen and contributors).
+https://kaikki.org/dictionary/Chinese/
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: 2026-10-21 · enwiktionary dump 2026-10-01
+Wiktionary original text is available under CC BY-SA 4.0 / GFDL. This adaptation uses CC BY-SA 4.0. Attribution and source entry links are retained; see https://kaikki.org/dictionary/ and https://en.wiktionary.org/wiki/Wiktionary:Copyrights . Only source glosses, lexical tags, identifiers, pronunciations and provenance are retained; quotations/examples/media are omitted. Kaikki labels these postprocessed language downloads deprecated in favour of its full raw download format.
+
+wiktionary-fr
+French Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: 2026-10-14 · dump 2026-10-01 · import 2026-10-15
+
+wiktionary-it
+Italian Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: 2026-10-03 · dump 2026-10-01 · import 2026-10-15
+
+wiktionary-ja
+Japanese Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: 2026-10-02 · dump 2026-10-01 · import 2026-10-15
+
+wiktionary-ko
+Korean Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: 2026-10-02 · dump 2026-10-01 · import 2026-10-15
+
+wiktionary-pt
+Portuguese Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: 2026-10-02 · dump 2026-09-01 · import 2026-10-15
+
+wiktionary-ru
+Russian Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: 2026-10-02 · dump 2026-10-01 · import 2026-10-15
+
+wiktionary-vi
+Vietnamese Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: 2026-10-03 · dump 2026-09-01 · import 2026-10-15
+

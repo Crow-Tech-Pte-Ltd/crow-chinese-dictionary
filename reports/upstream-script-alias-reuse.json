@@ -1,0 +1,506 @@
+{
+  "reference": "English generation queue immediately before source-attested script alias fix",
+  "referenceEnglishJobCount": 386,
+  "compactSha256": "c85fbc7d5eba6c68d71298f844979a778471ef0d4aceccd25e2e0756cfdb22b6",
+  "matchCounts": {
+    "no_upstream_spelling_match": 326,
+    "ambiguous_source_reading_review": 7,
+    "exact_reading_reuse_lead": 50,
+    "other_reading_or_missing_source_reading_review": 3
+  },
+  "transitionsFromPreviousCompact": {
+    "no_upstream_spelling_match -> no_upstream_spelling_match": 326,
+    "no_upstream_spelling_match -> ambiguous_source_reading_review": 7,
+    "no_upstream_spelling_match -> exact_reading_reuse_lead": 50,
+    "no_upstream_spelling_match -> other_reading_or_missing_source_reading_review": 3
+  },
+  "changedJobLeads": [
+    {
+      "canonicalWord": "甚么",
+      "reading": "shen2 me5",
+      "normalizedReading": "shénme",
+      "before": "no_upstream_spelling_match",
+      "after": "ambiguous_source_reading_review",
+      "jobId": "b642cc45b60669f51609579e149b6039c107eef3973d4e4252fb98d95a2cabb5"
+    },
+    {
+      "canonicalWord": "长时间",
+      "reading": "chángshíjiān",
+      "normalizedReading": "chángshíjiān",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "d52eddd546a323d91bbeb73a21424ad489a51a8e0ef5bb2f91afb3abbc44d31c"
+    },
+    {
+      "canonicalWord": "数十",
+      "reading": "shu4 shi2",
+      "normalizedReading": "shùshí",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "3beb6a0622eea10a9e9171b0fe0d5473dd771288af78d1b6c44c6cfab4ce4fc0"
+    },
+    {
+      "canonicalWord": "登台",
+      "reading": "deng1 tai2",
+      "normalizedReading": "dēngtái",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "cacd2930d3cf97848e720e2d53614d8a04496424e2740e913532d3e2920357ca"
+    },
+    {
+      "canonicalWord": "师团",
+      "reading": "shi1 tuan2",
+      "normalizedReading": "shītuán",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "6f48ec5f4773446993fa25a62e16d999fc4fa4cb111986077f53420262264054"
+    },
+    {
+      "canonicalWord": "极速",
+      "reading": "ji2 su4",
+      "normalizedReading": "jísù",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "8400f9dfdebcf62821e92eb760390347532b2cff6d3790e449af217198ae2837"
+    },
+    {
+      "canonicalWord": "电子产品",
+      "reading": "dian4 zi3 chan3 pin3",
+      "normalizedReading": "diànzǐchǎnpǐn",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "197a01f166f0d19c373d534848623dfddc8dd4fb7735f7194c9ba7605039104e"
+    },
+    {
+      "canonicalWord": "诸岛",
+      "reading": "zhūdǎo",
+      "normalizedReading": "zhūdǎo",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "6fd34ac489da017795ec1075f2ea8e5a37668f650c3e30725bded0f94fb0c8d9"
+    },
+    {
+      "canonicalWord": "作词",
+      "reading": "zuòcí",
+      "normalizedReading": "zuòcí",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "11a8bc62528c3c319d85c71278c53c47f517d560d10e8cdc5ebb835c35acbd3f"
+    },
+    {
+      "canonicalWord": "近现代",
+      "reading": "jìnxiàndài",
+      "normalizedReading": "jìnxiàndài",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "2431bb6f17aa89bcc361e829588542924be060ebddf16ffdbc0548f0d3a99d5b"
+    },
+    {
+      "canonicalWord": "署长",
+      "reading": "shǔzhǎng",
+      "normalizedReading": "shǔzhǎng",
+      "before": "no_upstream_spelling_match",
+      "after": "ambiguous_source_reading_review",
+      "jobId": "15a202759bfc03f8cf5b46b447be334c62e58c2fc5303144ad6361f7162b6034"
+    },
+    {
+      "canonicalWord": "马修",
+      "reading": "ma3 xiu1",
+      "normalizedReading": "mǎxiū",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "5bb748fb26b562cbf3d4cecacb30df6695e2fdbe55eb1f13439564200243241e"
+    },
+    {
+      "canonicalWord": "主战",
+      "reading": "zhǔzhàn",
+      "normalizedReading": "zhǔzhàn",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "1755b1fdb5e065c844f66e36801b592a75886b42525e41f21f0e8dc23d760c2b"
+    },
+    {
+      "canonicalWord": "午间",
+      "reading": "wǔjiān",
+      "normalizedReading": "wǔjiān",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "356511fdf8acfeb1e22c86c366db1a553d566f03906538bffc6cf3bbd7c86856"
+    },
+    {
+      "canonicalWord": "爱妻",
+      "reading": "àiqī",
+      "normalizedReading": "àiqī",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "6aa5c6c76d0e227ef2e76d95e03471b176f6aeb9836bcd3324d65cff114ad6c8"
+    },
+    {
+      "canonicalWord": "纸上",
+      "reading": "zhǐshàng",
+      "normalizedReading": "zhǐshàng",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "44f1f86cce03fd39f8dde11e20d2ce9ceaa85aa119721c3816b63eb0b022902a"
+    },
+    {
+      "canonicalWord": "范文",
+      "reading": "fan4 wen2",
+      "normalizedReading": "fànwén",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "dba4600b02b1f22a6d2505338e28fe8643d1f3f85238ba75bece85cdb44b9a33"
+    },
+    {
+      "canonicalWord": "年产量",
+      "reading": "niánchǎnliàng",
+      "normalizedReading": "niánchǎnliàng",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "2d353d081e18a8f6692ed740db6c8f59a3ad57813bb88e6a5ac50e972bfb6ab6"
+    },
+    {
+      "canonicalWord": "极右",
+      "reading": "jíyòu",
+      "normalizedReading": "jíyòu",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "de8525ca9176320ff9562487e27cd1522d9f2292a76c1d3c23cd37f7fc15354f"
+    },
+    {
+      "canonicalWord": "吹响",
+      "reading": "chuīxiǎng",
+      "normalizedReading": "chuīxiǎng",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "07efb9f8b9751efe3808adb43c89db24002416f39445f9011990f426a5fde0d7"
+    },
+    {
+      "canonicalWord": "新剧",
+      "reading": "xīnjù",
+      "normalizedReading": "xīnjù",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "d95cab4c874c0e38f5ea5b4065119d432204855ff255a635d4891ccf9a1735fd"
+    },
+    {
+      "canonicalWord": "国防军",
+      "reading": "guófángjūn",
+      "normalizedReading": "guófángjūn",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "57e4b17868f657b1dcb026ac5051bfaad737e2c0b5abbbf3c21e13acd951eedc"
+    },
+    {
+      "canonicalWord": "断面",
+      "reading": "duànmiàn",
+      "normalizedReading": "duànmiàn",
+      "before": "no_upstream_spelling_match",
+      "after": "ambiguous_source_reading_review",
+      "jobId": "8f30ec05d1612134569f76390668c14211a3f537f490280987d707f6c56fbc78"
+    },
+    {
+      "canonicalWord": "酸碱",
+      "reading": "suānjiǎn",
+      "normalizedReading": "suānjiǎn",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "488d23301edbae8b0bc23c3a92aef34aa70fde376e2174437d4b23f17abc7f42"
+    },
+    {
+      "canonicalWord": "妳们",
+      "reading": "nǐmen",
+      "normalizedReading": "nǐmen",
+      "before": "no_upstream_spelling_match",
+      "after": "ambiguous_source_reading_review",
+      "jobId": "fc7305e68545f2ba79f2ec907ef91fcfae3c9bb991c73f6a5cabed7e2ea2e398"
+    },
+    {
+      "canonicalWord": "师哥",
+      "reading": "shīgē",
+      "normalizedReading": "shīgē",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "3decd7b6b19bde24308f5e3f3a5694866059ecd197f51b66ef63bc3febc30ef3"
+    },
+    {
+      "canonicalWord": "基础性",
+      "reading": "jīchǔ xìng",
+      "normalizedReading": "jīchǔxìng",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "26e3d6738257277de9ee310f638c965908dae47b0e6cbc8b414b88dcf659a1e2"
+    },
+    {
+      "canonicalWord": "带状",
+      "reading": "dàizhuàng",
+      "normalizedReading": "dàizhuàng",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "ea46e62a2d4bd724b9845901ddb8e935a0a8085e20baf723a34d6c3fed1aa1c4"
+    },
+    {
+      "canonicalWord": "双唇",
+      "reading": "shuāngchún",
+      "normalizedReading": "shuāngchún",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "c758d42c650ece038843916034cd8c138841f2706337513c3ec980d86832fe4d"
+    },
+    {
+      "canonicalWord": "爱车",
+      "reading": "àichē",
+      "normalizedReading": "àichē",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "ff86fc34e40b05fa15c1f0e102abba8cac45cb6d24997b27d74ab6f2b18689b0"
+    },
+    {
+      "canonicalWord": "禅寺",
+      "reading": "chánsì",
+      "normalizedReading": "chánsì",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "2150150d0ff800ffc81ce847ec1a695f6f29eea5b55720c5cae1d18c580298c9"
+    },
+    {
+      "canonicalWord": "米切尔",
+      "reading": "mi3 qie1 er3",
+      "normalizedReading": "mǐqiēěr",
+      "before": "no_upstream_spelling_match",
+      "after": "other_reading_or_missing_source_reading_review",
+      "jobId": "89d6d8aff4ce982c7f87c5239942fac1bad6b6e9d14ce7b0c963116a8acfab8e"
+    },
+    {
+      "canonicalWord": "琳达",
+      "reading": "lin2 da2",
+      "normalizedReading": "líndá",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "75fb78cb430586fbdc6b4e9b241e0a2367f0fa2cf8419cadb8aa9dd75691aa0a"
+    },
+    {
+      "canonicalWord": "保荐",
+      "reading": "baǒjiàn",
+      "normalizedReading": "baǒjiàn",
+      "before": "no_upstream_spelling_match",
+      "after": "other_reading_or_missing_source_reading_review",
+      "jobId": "6d1dc0403c70a469a6c052ed339d961ecf2f956ef4e6b4d7d164eb2bc3692b59"
+    },
+    {
+      "canonicalWord": "保证书",
+      "reading": "bǎozhèngshū",
+      "normalizedReading": "bǎozhèngshū",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "9173df4201ae75a997ba14bf68ffe8abaf01def517acffe803694fdb4e962ff6"
+    },
+    {
+      "canonicalWord": "大团圆",
+      "reading": "dàtuányuán",
+      "normalizedReading": "dàtuányuán",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "2db5b265a2ec26185d9fe2685d3ec92384430a40825c089a5ac127ca68a9cf0e"
+    },
+    {
+      "canonicalWord": "上机",
+      "reading": "shang4 ji1",
+      "normalizedReading": "shàngjī",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "ae2cd9f77f6e66fcac89c6741cfcd39a5ecc6a9ee1c35ca0e00725ee0ea00d94"
+    },
+    {
+      "canonicalWord": "风神",
+      "reading": "fēngshén",
+      "normalizedReading": "fēngshén",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "74ed6a44270eda1881a40acc4a2af0937644873c89fb7c62d003a6e75b14791b"
+    },
+    {
+      "canonicalWord": "亲政",
+      "reading": "qīnzhèng",
+      "normalizedReading": "qīnzhèng",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "651a69fac4d7ab72b61eeeef4fa54a4ed80c64a0bd8039fffd1af56f5128c31c"
+    },
+    {
+      "canonicalWord": "异姓",
+      "reading": "yìxìng",
+      "normalizedReading": "yìxìng",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "4746d97ab8c6ea4efe4396a4d469e3d9459e6c434ca69a2d2e9ffe2f3c5d099a"
+    },
+    {
+      "canonicalWord": "阿达",
+      "reading": "a1 da2",
+      "normalizedReading": "ādá",
+      "before": "no_upstream_spelling_match",
+      "after": "other_reading_or_missing_source_reading_review",
+      "jobId": "9f102f5169f8bdde83b0180a4c31b9e950eee257c21f4ce16df699a5a43bb561"
+    },
+    {
+      "canonicalWord": "万古",
+      "reading": "wàngǔ",
+      "normalizedReading": "wàngǔ",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "9389efb0330dba24465c2fac3222ff684a99a2fa1859daed1c4135ad47d57138"
+    },
+    {
+      "canonicalWord": "怒涛",
+      "reading": "nùtāo",
+      "normalizedReading": "nùtāo",
+      "before": "no_upstream_spelling_match",
+      "after": "ambiguous_source_reading_review",
+      "jobId": "9367f7cd51218d233402a2fe395fd8c2d47f19dc4ab598255955a139d8b16a0b"
+    },
+    {
+      "canonicalWord": "母舰",
+      "reading": "mǔjiàn",
+      "normalizedReading": "mǔjiàn",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "0829fbd6702a4270703265a377aac28d8a9936bfd319ba538ae2c9d4aca0c102"
+    },
+    {
+      "canonicalWord": "严令",
+      "reading": "yánlìng",
+      "normalizedReading": "yánlìng",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "caede85a9b450749fa886b147183a38e17a3fc03dd6e0e7d1cb760f6ec80a572"
+    },
+    {
+      "canonicalWord": "内外交困",
+      "reading": "nei4 wai4 jiao1 kun4",
+      "normalizedReading": "nèiwàijiāokùn",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "0ea037fbdf4a0cee55914f4ba31c6dc7d6137ca894c3a2052e29a378259b5f3d"
+    },
+    {
+      "canonicalWord": "风雷",
+      "reading": "fēngléi",
+      "normalizedReading": "fēngléi",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "4d4f6ce4a4673301890a068b5476b3649283c2194d6993714adbf501c60eae44"
+    },
+    {
+      "canonicalWord": "诗学",
+      "reading": "shīxué",
+      "normalizedReading": "shīxué",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "613dca2775067305e50f380eb63a6c1a52100af652743aa44132841cca42f130"
+    },
+    {
+      "canonicalWord": "幽闭",
+      "reading": "yōubì",
+      "normalizedReading": "yōubì",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "6b0810e535921c3e11dd39fdd6506ae17d45c4bd358fe86701bd5b8595a05470"
+    },
+    {
+      "canonicalWord": "动物学家",
+      "reading": "dòngwùxuéjiā",
+      "normalizedReading": "dòngwùxuéjiā",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "9b58c78b695937ce919109b18fb9a2bb78da71a3ad216a27c96bb71a62878b5f"
+    },
+    {
+      "canonicalWord": "遗传学家",
+      "reading": "yíchuán xuéjiā",
+      "normalizedReading": "yíchuánxuéjiā",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "35537378c72e5dad7918e5730e086ef1ab33425f5d874dd4c0b010a94498c813"
+    },
+    {
+      "canonicalWord": "将校",
+      "reading": "jiàngxiào",
+      "normalizedReading": "jiàngxiào",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "c5f9631ee22400d847b2c3cde60420e91c9172e2d494144701d401bf0561e342"
+    },
+    {
+      "canonicalWord": "里亚尔",
+      "reading": "li3 ya4 er3",
+      "normalizedReading": "lǐyàěr",
+      "before": "no_upstream_spelling_match",
+      "after": "ambiguous_source_reading_review",
+      "jobId": "c304d2d50f94fe7e0308f24861039acc7f822e4211a1d48c2833a8dd28207572"
+    },
+    {
+      "canonicalWord": "本当",
+      "reading": "běndāng",
+      "normalizedReading": "běndāng",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "1d0379eb889cbe31d0dc240071928aec6edcf11a3d979565e9cba87af7b727ff"
+    },
+    {
+      "canonicalWord": "治愈率",
+      "reading": "zhi4 yu4 lü4",
+      "normalizedReading": "zhìyùlǜ",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "90d6640ab39ad30f54cd1ebd6de91a8348189ce29bf091cbae656580c6e547a6"
+    },
+    {
+      "canonicalWord": "进谏",
+      "reading": "jìnjiàn",
+      "normalizedReading": "jìnjiàn",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "d5ec61dc2d5bf3e6b977d4103bce2c5d8eedbf52a87f13d95cb852d4cf352c58"
+    },
+    {
+      "canonicalWord": "音声",
+      "reading": "yīnshēng",
+      "normalizedReading": "yīnshēng",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "92297db481492b5311d8dcd8b98fea1e574f47e80ac653b3dfd72fb87d7cf43f"
+    },
+    {
+      "canonicalWord": "浸礼",
+      "reading": "jìnlǐ",
+      "normalizedReading": "jìnlǐ",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "a40179095d72f690bb4636c6e96c9b8bcb097a0e19096ccd5dabdf828b5532d2"
+    },
+    {
+      "canonicalWord": "财务报表",
+      "reading": "cai2 wu4 bao4 biao3",
+      "normalizedReading": "cáiwùbàobiǎo",
+      "before": "no_upstream_spelling_match",
+      "after": "ambiguous_source_reading_review",
+      "jobId": "d56ef9a31971e71f7c20727144618d75bf83d9fc1d6e9493bbfd08cdba92a0dd"
+    },
+    {
+      "canonicalWord": "列阵",
+      "reading": "lièzhèn",
+      "normalizedReading": "lièzhèn",
+      "before": "no_upstream_spelling_match",
+      "after": "exact_reading_reuse_lead",
+      "jobId": "9e0f2e98773763d27d54c17ee39c6a2b92dfcb28dc9d740681f61d9e1b5357e8"
+    }
+  ],
+  "inferenceCallsForComparison": 0,
+  "generationEligible": false,
+  "warnings": [
+    "Aggregate source-reuse leads only; full inventory must be rebuilt because script identity changed.",
+    "Same-reading matching is required; ambiguous or differing readings remain review leads.",
+    "No claim that imported source senses or pronunciation alignment are human-reviewed."
+  ]
+}

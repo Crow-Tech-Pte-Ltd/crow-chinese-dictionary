@@ -1,0 +1,34 @@
+{
+  "verifiedOn": "2026-10-23",
+  "minimax": {
+    "model": "MiniMax-M3.1-Flash",
+    "endpoint": "https://api.minimax.io/v1/chat/completions",
+    "inputUpperUsdPerMillion": 0.15,
+    "outputUpperUsdPerMillion": 0.6,
+    "reasoningEffort": "low",
+    "billing": "token-plan",
+    "notes": "Subscription quota can fall through to credit packs. Direct native JSON schema is not documented. Credit units are not assumed to be USD."
+  },
+  "openrouter": {
+    "model": "z-ai/glm-5.3",
+    "inputUpperUsdPerMillion": 1.1,
+    "outputUpperUsdPerMillion": 2.2,
+    "observedBaseInputUsdPerMillion": 0.079,
+    "observedBaseOutputUsdPerMillion": 1.4,
+    "selection": "Primary independent checker after measured pilot; all checks remain machine review.",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "dataCollection": "deny",
+    "requireParameters": true
+  },
+  "sampleAuditReviewer": {
+    "model": "deepseek/deepseek-v4-pro",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "inputUpperUsdPerMillion": 1.1,
+    "outputUpperUsdPerMillion": 2.2,
+    "observedBaseInputUsdPerMillion": 0.95526,
+    "observedBaseOutputUsdPerMillion": 1.91052,
+    "dataCollection": "deny",
+    "requireParameters": true,
+    "notes": "Endpoint prices can differ. Confirm current catalogue and retain max_price ceilings; no policy relaxation or costlier model fallback."
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "assets": [
+    {
+      "bytes": 5566,
+      "file": "NOTICE.txt",
+      "sha256": "ea752c713b77f9d764e90bfc3cd089acc1f790e5a9aaa7098c75f9a6fb3acd52"
+    },
+    {
+      "bytes": 11609687,
+      "file": "entries.jsonl.gz",
+      "sha256": "f570445869ddfea49b33faec4f72904bd2d0f0273de1b50e8ee74cf90ccfc4f1"
+    },
+    {
+      "bytes": 17228100,
+      "file": "review-queue.jsonl",
+      "sha256": "80f194662d288f61d85caf8584a82fde029135a9977610881d6ed73a68bd399e"
+    },
+    {
+      "bytes": 384,
+      "file": "validation-report.json",
+      "sha256": "2fbc6bed81cf7637372a3ae3d6b92e0671ddaede21178aba158aca75fd809d7b"
+    },
+    {
+      "bytes": 7305805,
+      "file": "website/en.json.gz",
+      "sha256": "bfd6f70e3e201008d8012d67b70d9ec51687181744024e015b4d37fae1a37765"
+    },
+    {
+      "bytes": 765,
+      "file": "website/import-manifest.json",
+      "sha256": "a29a7ef41e34a07b3f75ada0d9d19ca1d4bb42c87e8bae0cfc9c50933c847d9c"
+    }
+  ],
+  "automaticChecksAreHumanReview": false,
+  "containsSyntheticDefinitions": true,
+  "counts": {
+    "accepted": 40970,
+    "humanReviewed": 0,
+    "invalidDrafts": 9,
+    "jobs": 41023,
+    "machineChecked": 288,
+    "notGenerated": 27,
+    "pending": 53,
+    "sourceImported": 40682,
+    "validDrafts": 40987
+  },
+  "definitionOrigins": {
+    "model_generated": 288,
+    "source_imported": 40682
+  },
+  "format": "crow-chinese-dictionary/1",
+  "license": "CC BY-SA 4.0",
+  "name": "crow-chinese-dictionary",
+  "sourceRecordCount": 42027,
+  "sourceRecordLocation": "entries.jsonl.gz",
+  "sources": [
+    {
+      "attribution": "CC-CEDICT contributors; Harmony Mandarin; CC-CIDICT community",
+      "language": "id",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "1.27 · 2026-09-26",
+      "sourceFamily": "cedict-family",
+      "sourceId": "cc-cidict",
+      "sourceSha256": "8495b71d5fca4ea00a2577a20f26a003a86384817781b27d8afca6a4b27e9f9f",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "David Houstin / Chine Informations contributors",
+      "language": "fr",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "snapshot": "2024-12-14",
+      "sourceFamily": "cfdict",
+      "sourceId": "cfdict",
+      "sourceSha256": "06de51f3732cce132a39afd55c9633667ae1ab200412975a4dce8cfdffd959e1",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "Gábor L Ugray / CHDICT contributors",
+      "language": "hu",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "2026-06-23",
+      "sourceFamily": "chdict",
+      "sourceId": "chdict",
+      "sourceSha256": "fb63d664fe44524a03d574e8c957e6585388c25a075c45e48152ca90215f57f0",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "Gábor L Ugray / HanDeDict contributors",
+      "language": "de",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "snapshot": "2026-10-09",
+      "sourceFamily": "handedict",
+      "sourceId": "handedict",
+      "sourceSha256": "c6361bcf727a61c416a001d866197a2aa7f2d7acea44169b80fc14d79b720430",
+      "sourceUrl": "https://handedict.zydeo.net/"
+    },
+    {
+      "attribution": "Czech Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "cs",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "original-sha256:a90dd2570a4eec542f4c79bab098d5ecc1218bb40e4463dc1a8d6026455a069f",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "raw-wiktionary-cs",
+      "sourceSha256": "a90dd2570a4eec542f4c79bab098d5ecc1218bb40e4463dc1a8d6026455a069f",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "French Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "fr",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "original-sha256:3bb75723facd7e194dc9cff7cd18a96f5e6fb6c7f25dbaaaee5d21782bb428ad",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "raw-wiktionary-fr",
+      "sourceSha256": "3bb75723facd7e194dc9cff7cd18a96f5e6fb6c7f25dbaaaee5d21782bb428ad",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "Italian Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "it",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "original-sha256:dfa6ddb1d10267686ce4ebbccc6ff93cf97542fcfcac4afcb7b5e4393e5377c2",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "raw-wiktionary-it",
+      "sourceSha256": "dfa6ddb1d10267686ce4ebbccc6ff93cf97542fcfcac4afcb7b5e4393e5377c2",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "Japanese Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "ja",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "original-sha256:9df42603532e5b596aacf8bb424982bef464fb8a221653c73e66532bf531988c",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "raw-wiktionary-ja",
+      "sourceSha256": "9df42603532e5b596aacf8bb424982bef464fb8a221653c73e66532bf531988c",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "Korean Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "ko",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "original-sha256:4eb06b4f1b1d55137099619db7b31f939b79c18c15cfc9652e4d27d1861c52f3",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "raw-wiktionary-ko",
+      "sourceSha256": "4eb06b4f1b1d55137099619db7b31f939b79c18c15cfc9652e4d27d1861c52f3",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "Portuguese Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "pt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "original-sha256:6c9855aeab5ba9a168df79fb8ca1ae52ca548a42dd7086b4b43fcb43e235e954",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "raw-wiktionary-pt",
+      "sourceSha256": "6c9855aeab5ba9a168df79fb8ca1ae52ca548a42dd7086b4b43fcb43e235e954",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "Vietnamese Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "vi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "original-sha256:2a924292f5a2de0d4036618c6664d092d9588f7aa8274a7abe30d858e0ed32d0",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "raw-wiktionary-vi",
+      "sourceSha256": "2a924292f5a2de0d4036618c6664d092d9588f7aa8274a7abe30d858e0ed32d0",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "Czech Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "cs",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "2026-10-03 · dump 2026-10-01 · import 2026-10-15",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "wiktionary-cs",
+      "sourceSha256": "23619cb09cf8169ce0fcdd55d3471ff143edbb98457d6a5d357075f6df801e9b",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "English Wiktionary contributors; extracted and postprocessed by Kaikki / Wiktextract (Tatu Ylonen and contributors).",
+      "language": "en",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "2026-10-21 · enwiktionary dump 2026-10-01",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "wiktionary-en-upstream",
+      "sourceSha256": "c85fbc7d5eba6c68d71298f844979a778471ef0d4aceccd25e2e0756cfdb22b6",
+      "sourceUrl": "https://kaikki.org/dictionary/Chinese/"
+    },
+    {
+      "attribution": "French Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "fr",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "2026-10-14 · dump 2026-10-01 · import 2026-10-15",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "wiktionary-fr",
+      "sourceSha256": "20c64370bc487f171a1cb563b702d98ed7b50635f6b6a0e794f5e8ec8a517322",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "Italian Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "it",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "2026-10-03 · dump 2026-10-01 · import 2026-10-15",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "wiktionary-it",
+      "sourceSha256": "c03ae6be0e8436c1afbd646452c4872eb47fcdb29fbf2394002863dde9ed9b1c",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "Japanese Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "ja",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "2026-10-02 · dump 2026-10-01 · import 2026-10-15",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "wiktionary-ja",
+      "sourceSha256": "1d1335696877f6335b275c7da54954dd0ff2674f39f0f44de2b1b2c853ca65f0",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "Korean Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "ko",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "2026-10-02 · dump 2026-10-01 · import 2026-10-15",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "wiktionary-ko",
+      "sourceSha256": "f07991f5ed16d0b66695e69e12b68596ce9a9a21bd5cdc27f4fc23a935676292",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "Portuguese Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "pt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "2026-10-02 · dump 2026-09-01 · import 2026-10-15",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "wiktionary-pt",
+      "sourceSha256": "ca7ffa954782f68d1efee88bef081df18af0a7cafd4e6ead1847ac2ee9bb6b33",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "Russian Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "ru",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "2026-10-02 · dump 2026-10-01 · import 2026-10-15",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "wiktionary-ru",
+      "sourceSha256": "27060e59bbd8b76d172d5b3f241c76a8a4df021c3ff72c287f90926a8ec57be9",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "Vietnamese Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "vi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "2026-10-03 · dump 2026-09-01 · import 2026-10-15",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "wiktionary-vi",
+      "sourceSha256": "b7717711b68c122d52240fbcd4c6007102034fa8d903e4977288b631453bd1c1",
+      "sourceUrl": ""
+    }
+  ]
+}

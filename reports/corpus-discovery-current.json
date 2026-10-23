@@ -1,0 +1,9 @@
+{
+  "sourceFingerprint": "0445a41a7dfc2916f3f784052187aa1d2292166b47570d51dd9e71184f948860",
+  "acceptedSourceEnglishEntries": 40682,
+  "sourceEntriesWhoseSpellingsAreAbsentAcrossAllBaselineLanguages": 23531,
+  "distinctCanonicalHeadsWithNoBaselineSpelling": 23388,
+  "sourceEnglishEntriesWithSpellingAlreadyPresentInAnotherBaselineLanguageOrReading": 17151,
+  "sourceImportHumanReviewed": false,
+  "comparisonPolicy": "Conservative spelling comparison across every baseline pack and all its supplied script aliases, irrespective of reading; presence prevents a whole-app missing-headword claim. Entries remain word-plus-reading jobs. This does not establish completeness or compare proprietary dictionaries."
+}

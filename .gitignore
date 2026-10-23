@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+.*-key
+*.key
+private/
+work/
+.venv/
+__pycache__/
+*.pyc
+*.sqlite
+*.sqlite-*
+*.db
+*.log

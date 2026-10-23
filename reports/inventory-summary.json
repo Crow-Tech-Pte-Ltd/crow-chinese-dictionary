@@ -1,0 +1,1369 @@
+{
+  "sourceFingerprint": "0445a41a7dfc2916f3f784052187aa1d2292166b47570d51dd9e71184f948860",
+  "referenceHeadwordsBySpokenLanguage": {
+    "cmn": 480870,
+    "yue": 29468
+  },
+  "records": 2697164,
+  "lexemesWithReadings": 401931,
+  "rawReadingAttestations": 147722,
+  "readingStatusRows": {
+    "ambiguous": 68585,
+    "invalid": 8803,
+    "missing": 416439,
+    "resolved_unique": 167262,
+    "source_attested": 2036075
+  },
+  "aliasStatusRows": {
+    "conflict": 1267,
+    "mapped_explicit": 81268,
+    "unchanged": 2121040,
+    "unresolved": 493589
+  },
+  "sources": [
+    {
+      "id": "cc-cidict",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 125525
+    },
+    {
+      "id": "cccanto",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 34335
+    },
+    {
+      "id": "cedict",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 125244
+    },
+    {
+      "id": "cedict-es-ai",
+      "policy": "machine_evidence_only",
+      "quality": "machine_translated",
+      "records": 124349
+    },
+    {
+      "id": "cfdict",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 56300
+    },
+    {
+      "id": "chdict",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 19431
+    },
+    {
+      "id": "cvdict",
+      "policy": "machine_evidence_only",
+      "quality": "machine_translated",
+      "records": 122597
+    },
+    {
+      "id": "handedict",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 160725
+    },
+    {
+      "id": "handedict-en-ai",
+      "policy": "machine_evidence_only",
+      "quality": "machine_translated",
+      "records": 83818
+    },
+    {
+      "id": "hsk-open",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 12623
+    },
+    {
+      "id": "kenet-tr",
+      "policy": "component_review",
+      "quality": "full_definition",
+      "records": 19467
+    },
+    {
+      "id": "moe-concise",
+      "policy": "discovery_only_nd",
+      "quality": "full_definition",
+      "records": 45178
+    },
+    {
+      "id": "moe-idioms",
+      "policy": "discovery_only_nd",
+      "quality": "full_definition",
+      "records": 5489
+    },
+    {
+      "id": "moe-revised",
+      "policy": "discovery_only_nd",
+      "quality": "full_definition",
+      "records": 163909
+    },
+    {
+      "id": "phrasebook-en",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 90
+    },
+    {
+      "id": "raw-wiktionary-cs",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 476
+    },
+    {
+      "id": "raw-wiktionary-de",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 488
+    },
+    {
+      "id": "raw-wiktionary-el",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 840
+    },
+    {
+      "id": "raw-wiktionary-fr",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 14916
+    },
+    {
+      "id": "raw-wiktionary-it",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 1580
+    },
+    {
+      "id": "raw-wiktionary-ja",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 47058
+    },
+    {
+      "id": "raw-wiktionary-ko",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 17354
+    },
+    {
+      "id": "raw-wiktionary-ms",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 204
+    },
+    {
+      "id": "raw-wiktionary-nl",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 591
+    },
+    {
+      "id": "raw-wiktionary-pl",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 3296
+    },
+    {
+      "id": "raw-wiktionary-pt",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 2338
+    },
+    {
+      "id": "raw-wiktionary-ru",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 10529
+    },
+    {
+      "id": "raw-wiktionary-tr",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 1004
+    },
+    {
+      "id": "raw-wiktionary-vi",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 1901
+    },
+    {
+      "id": "wikdict-bg",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 4083
+    },
+    {
+      "id": "wikdict-ca",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 4504
+    },
+    {
+      "id": "wikdict-cs",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 4700
+    },
+    {
+      "id": "wikdict-da",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 4259
+    },
+    {
+      "id": "wikdict-de",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 6610
+    },
+    {
+      "id": "wikdict-el",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 4612
+    },
+    {
+      "id": "wikdict-en",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 9599
+    },
+    {
+      "id": "wikdict-es",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 6211
+    },
+    {
+      "id": "wikdict-fi",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 6475
+    },
+    {
+      "id": "wikdict-fr",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 6827
+    },
+    {
+      "id": "wikdict-it",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 5309
+    },
+    {
+      "id": "wikdict-ja",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 6499
+    },
+    {
+      "id": "wikdict-nl",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 4992
+    },
+    {
+      "id": "wikdict-no",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 1446
+    },
+    {
+      "id": "wikdict-pl",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 5494
+    },
+    {
+      "id": "wikdict-pt",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 6079
+    },
+    {
+      "id": "wikdict-ru",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 155396
+    },
+    {
+      "id": "wikdict-sv",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 5174
+    },
+    {
+      "id": "wikdict-tr",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 4263
+    },
+    {
+      "id": "wiktionary",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 71790
+    },
+    {
+      "id": "wiktionary-cs",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 445
+    },
+    {
+      "id": "wiktionary-de",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 350
+    },
+    {
+      "id": "wiktionary-el",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 788
+    },
+    {
+      "id": "wiktionary-en-upstream",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 155016
+    },
+    {
+      "id": "wiktionary-fr",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 13072
+    },
+    {
+      "id": "wiktionary-it",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 1324
+    },
+    {
+      "id": "wiktionary-ja",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 42445
+    },
+    {
+      "id": "wiktionary-ko",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 15882
+    },
+    {
+      "id": "wiktionary-ms",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 172
+    },
+    {
+      "id": "wiktionary-nl",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 590
+    },
+    {
+      "id": "wiktionary-pl",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 3631
+    },
+    {
+      "id": "wiktionary-pt",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 2232
+    },
+    {
+      "id": "wiktionary-ru",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 11683
+    },
+    {
+      "id": "wiktionary-tr",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 997
+    },
+    {
+      "id": "wiktionary-vi",
+      "policy": "compatible",
+      "quality": "full_definition",
+      "records": 3857
+    },
+    {
+      "id": "wordnet-ar",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 11545
+    },
+    {
+      "id": "wordnet-bg",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 11172
+    },
+    {
+      "id": "wordnet-ca",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 39124
+    },
+    {
+      "id": "wordnet-da",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 9285
+    },
+    {
+      "id": "wordnet-el",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 17191
+    },
+    {
+      "id": "wordnet-es",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 46295
+    },
+    {
+      "id": "wordnet-fi",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 61277
+    },
+    {
+      "id": "wordnet-hr",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 23045
+    },
+    {
+      "id": "wordnet-id",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 28260
+    },
+    {
+      "id": "wordnet-it",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 28514
+    },
+    {
+      "id": "wordnet-ja",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 38015
+    },
+    {
+      "id": "wordnet-lt",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 7842
+    },
+    {
+      "id": "wordnet-ms",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 28056
+    },
+    {
+      "id": "wordnet-nl",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 25448
+    },
+    {
+      "id": "wordnet-no",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 9340
+    },
+    {
+      "id": "wordnet-pl",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 22731
+    },
+    {
+      "id": "wordnet-pt",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 30087
+    },
+    {
+      "id": "wordnet-ro",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 38898
+    },
+    {
+      "id": "wordnet-sk",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 15646
+    },
+    {
+      "id": "wordnet-sl",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 30950
+    },
+    {
+      "id": "wordnet-sv",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 12210
+    },
+    {
+      "id": "wordnet-th",
+      "policy": "component_review",
+      "quality": "translation_only",
+      "records": 44194
+    },
+    {
+      "id": "zh-wiktionary-ar",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 5073
+    },
+    {
+      "id": "zh-wiktionary-bg",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 4972
+    },
+    {
+      "id": "zh-wiktionary-ca",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 5403
+    },
+    {
+      "id": "zh-wiktionary-cs",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 5618
+    },
+    {
+      "id": "zh-wiktionary-da",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 5081
+    },
+    {
+      "id": "zh-wiktionary-de",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 7922
+    },
+    {
+      "id": "zh-wiktionary-el",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 5504
+    },
+    {
+      "id": "zh-wiktionary-en",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 27428
+    },
+    {
+      "id": "zh-wiktionary-es",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 7444
+    },
+    {
+      "id": "zh-wiktionary-fi",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 7755
+    },
+    {
+      "id": "zh-wiktionary-fr",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 8249
+    },
+    {
+      "id": "zh-wiktionary-hu",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 5928
+    },
+    {
+      "id": "zh-wiktionary-id",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 3275
+    },
+    {
+      "id": "zh-wiktionary-it",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 6349
+    },
+    {
+      "id": "zh-wiktionary-ja",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 7682
+    },
+    {
+      "id": "zh-wiktionary-ko",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 6393
+    },
+    {
+      "id": "zh-wiktionary-lt",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 3445
+    },
+    {
+      "id": "zh-wiktionary-ms",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 3273
+    },
+    {
+      "id": "zh-wiktionary-nl",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 6004
+    },
+    {
+      "id": "zh-wiktionary-no",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 1254
+    },
+    {
+      "id": "zh-wiktionary-pl",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 6586
+    },
+    {
+      "id": "zh-wiktionary-pt",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 7340
+    },
+    {
+      "id": "zh-wiktionary-ro",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 4981
+    },
+    {
+      "id": "zh-wiktionary-ru",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 159359
+    },
+    {
+      "id": "zh-wiktionary-sk",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 3757
+    },
+    {
+      "id": "zh-wiktionary-sl",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 3477
+    },
+    {
+      "id": "zh-wiktionary-sv",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 6241
+    },
+    {
+      "id": "zh-wiktionary-th",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 4094
+    },
+    {
+      "id": "zh-wiktionary-tr",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 5048
+    },
+    {
+      "id": "zh-wiktionary-vi",
+      "policy": "compatible",
+      "quality": "translation_only",
+      "records": 4643
+    }
+  ],
+  "coverage": [
+    {
+      "language": "en",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 207140,
+      "missingTargetHeads": 273730,
+      "existingNonMachineHeads": 127009,
+      "machineOnlyHeads": 80131,
+      "attestedDefinitionAndReadingCandidates": 72230
+    },
+    {
+      "language": "en",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 29468,
+      "missingTargetHeads": 0,
+      "existingNonMachineHeads": 29468,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 0
+    },
+    {
+      "language": "es",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 143090,
+      "missingTargetHeads": 337780,
+      "existingNonMachineHeads": 40454,
+      "machineOnlyHeads": 102636,
+      "attestedDefinitionAndReadingCandidates": 150521
+    },
+    {
+      "language": "es",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "fr",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 61594,
+      "missingTargetHeads": 419276,
+      "existingNonMachineHeads": 61594,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 214012
+    },
+    {
+      "language": "fr",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "de",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 160135,
+      "missingTargetHeads": 320735,
+      "existingNonMachineHeads": 160135,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 116098
+    },
+    {
+      "language": "de",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "ja",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 55251,
+      "missingTargetHeads": 425619,
+      "existingNonMachineHeads": 55251,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 237086
+    },
+    {
+      "language": "ja",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "ko",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 17191,
+      "missingTargetHeads": 463679,
+      "existingNonMachineHeads": 17191,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 258695
+    },
+    {
+      "language": "ko",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "id",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 129787,
+      "missingTargetHeads": 351083,
+      "existingNonMachineHeads": 129787,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 152188
+    },
+    {
+      "language": "id",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "ms",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 21139,
+      "missingTargetHeads": 459731,
+      "existingNonMachineHeads": 21139,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 259470
+    },
+    {
+      "language": "ms",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "vi",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 120227,
+      "missingTargetHeads": 360643,
+      "existingNonMachineHeads": 7612,
+      "machineOnlyHeads": 112615,
+      "attestedDefinitionAndReadingCandidates": 158005
+    },
+    {
+      "language": "vi",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "ru",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 164592,
+      "missingTargetHeads": 316278,
+      "existingNonMachineHeads": 164592,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 217666
+    },
+    {
+      "language": "ru",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "pt",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 29303,
+      "missingTargetHeads": 451567,
+      "existingNonMachineHeads": 29303,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 254593
+    },
+    {
+      "language": "pt",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "it",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 26689,
+      "missingTargetHeads": 454181,
+      "existingNonMachineHeads": 26689,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 256256
+    },
+    {
+      "language": "it",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "nl",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 24528,
+      "missingTargetHeads": 456342,
+      "existingNonMachineHeads": 24528,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 257308
+    },
+    {
+      "language": "nl",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "pl",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 25862,
+      "missingTargetHeads": 455008,
+      "existingNonMachineHeads": 25862,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 257943
+    },
+    {
+      "language": "pl",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "sv",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 14412,
+      "missingTargetHeads": 466458,
+      "existingNonMachineHeads": 14412,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 262222
+    },
+    {
+      "language": "sv",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "fi",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 52116,
+      "missingTargetHeads": 428754,
+      "existingNonMachineHeads": 52116,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 249580
+    },
+    {
+      "language": "fi",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "no",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 8846,
+      "missingTargetHeads": 472024,
+      "existingNonMachineHeads": 8846,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 267034
+    },
+    {
+      "language": "no",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "da",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 11502,
+      "missingTargetHeads": 469368,
+      "existingNonMachineHeads": 11502,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 264475
+    },
+    {
+      "language": "da",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "cs",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 5744,
+      "missingTargetHeads": 475126,
+      "existingNonMachineHeads": 5744,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 269307
+    },
+    {
+      "language": "cs",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "tr",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 16421,
+      "missingTargetHeads": 464449,
+      "existingNonMachineHeads": 16421,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 261545
+    },
+    {
+      "language": "tr",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "el",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 17672,
+      "missingTargetHeads": 463198,
+      "existingNonMachineHeads": 17672,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 261396
+    },
+    {
+      "language": "el",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "bg",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 12476,
+      "missingTargetHeads": 468394,
+      "existingNonMachineHeads": 12476,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 263797
+    },
+    {
+      "language": "bg",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "ca",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 34052,
+      "missingTargetHeads": 446818,
+      "existingNonMachineHeads": 34052,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 255026
+    },
+    {
+      "language": "ca",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "hu",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 22270,
+      "missingTargetHeads": 458600,
+      "existingNonMachineHeads": 22270,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 252807
+    },
+    {
+      "language": "hu",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "zh",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 162558,
+      "missingTargetHeads": 318312,
+      "existingNonMachineHeads": 162558,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 192853
+    },
+    {
+      "language": "zh",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "ar",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 12587,
+      "missingTargetHeads": 468283,
+      "existingNonMachineHeads": 12587,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 264177
+    },
+    {
+      "language": "ar",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "th",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 37705,
+      "missingTargetHeads": 443165,
+      "existingNonMachineHeads": 37705,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 255033
+    },
+    {
+      "language": "th",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "ro",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 31616,
+      "missingTargetHeads": 449254,
+      "existingNonMachineHeads": 31616,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 255039
+    },
+    {
+      "language": "ro",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "sl",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 25131,
+      "missingTargetHeads": 455739,
+      "existingNonMachineHeads": 25131,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 258904
+    },
+    {
+      "language": "sl",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "hr",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 17091,
+      "missingTargetHeads": 463779,
+      "existingNonMachineHeads": 17091,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 262585
+    },
+    {
+      "language": "hr",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "sk",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 14713,
+      "missingTargetHeads": 466157,
+      "existingNonMachineHeads": 14713,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 263478
+    },
+    {
+      "language": "sk",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    },
+    {
+      "language": "lt",
+      "spokenLanguage": "cmn",
+      "referenceHeads": 480870,
+      "existingTargetHeads": 9454,
+      "missingTargetHeads": 471416,
+      "existingNonMachineHeads": 9454,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 266958
+    },
+    {
+      "language": "lt",
+      "spokenLanguage": "yue",
+      "referenceHeads": 29468,
+      "existingTargetHeads": 0,
+      "missingTargetHeads": 29468,
+      "existingNonMachineHeads": 0,
+      "machineOnlyHeads": 0,
+      "attestedDefinitionAndReadingCandidates": 29282
+    }
+  ],
+  "limitations": [
+    "Reference universe is the supplied dictionaries, retained HSK data and explicitly catalogued supplemental snapshots; this is not an exact Pleco gap count or proof of completeness.",
+    "Counts are candidates before lexical/source-quality screening; related source families are not independent corroboration.",
+    "Unknown readings and headword-present reading differences are not automatically generated.",
+    "ND definitions are never retained in prompts; mixed component licences require review."
+  ]
+}

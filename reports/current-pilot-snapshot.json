@@ -1,0 +1,393 @@
+{
+  "asset": {
+    "bytes": 1706,
+    "sha256": "6aad04cbfb1aaff07d57255db6ed9a27b60278be4defae166f51a7e7fc3dd34a"
+  },
+  "chosen": [
+    {
+      "draftSha256": "d56b15620c98cbeb7103d3e2ddfa5da2f5101914ba37e809f5c6ccc1de8dcd3b",
+      "evidenceHash": "b613fc5b1060ea52caf998e2ae7d030590fc124ad61b05b3cac1051e9deb5ddc",
+      "generationFingerprint": "81d7d2a127e26cbd4f2ea196994eee7dadcd0a94e1747683522938713bce8a06",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "jobId": "1509c92b93a21fd5aa00cf2c73af0d061e0c248542f511214657bb2c906cb1f0",
+      "matchingValidCandidates": 1,
+      "promptVersion": "crow-definition-v2",
+      "supersededFingerprints": [],
+      "updated": 1792746637.8972104
+    },
+    {
+      "draftSha256": "a1157f2a60ec7c130d33c19504e8af74d60bd3f3bd3285f64a989716d9714dae",
+      "evidenceHash": "cbb3f3020c1366d406d76d720e7845719f4d386aefe2fb49fce34b5ce5e3ccbc",
+      "generationFingerprint": "de137e8e4d3a6e3fe0b3fee941030151de6cc056b76163fdea7ebddeadf209ee",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "jobId": "99b715871bac5798382001b63914590628af98f04f315dbaf0e0b9fd57269176",
+      "matchingValidCandidates": 1,
+      "promptVersion": "crow-definition-v2",
+      "supersededFingerprints": [],
+      "updated": 1792746644.2406266
+    },
+    {
+      "draftSha256": "bb950555e4077d31127ca48c1d8c768ffa678662b7ad098ec8b50a81bedcc982",
+      "evidenceHash": "89a8b146dc2b3bcd2a0ba16b6202c40f5919f325b3adcff2c53da45daa881dfd",
+      "generationFingerprint": "e6fb8f2a35d6c171955947b01a2d00e7c5d558d50105a40ab4a15f834f28a182",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "jobId": "af674c7dc7722c31134e2b872afbeffa2d9cbfd57d5bbed880ff7123457c37ce",
+      "matchingValidCandidates": 1,
+      "promptVersion": "crow-definition-v2",
+      "supersededFingerprints": [],
+      "updated": 1792746544.5385303
+    },
+    {
+      "draftSha256": "cddec2027f4406c84a98f8bfd275fa45df1c96e70cc66e6915cf8cbb0e072a3f",
+      "evidenceHash": "99b4f2c02ad808bfff5799a5803fb61d7407e9381bb537513d406b5b4cbef262",
+      "generationFingerprint": "9c040719e268eeff7c71436e0995ccc68e65ef2d7be034cb9a0cb03037c7572e",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "jobId": "b642cc45b60669f51609579e149b6039c107eef3973d4e4252fb98d95a2cabb5",
+      "matchingValidCandidates": 1,
+      "promptVersion": "crow-definition-v2",
+      "supersededFingerprints": [],
+      "updated": 1792746646.7693715
+    },
+    {
+      "draftSha256": "f5d9ddea3c41cd45f87f060a9375879286bd064c9d42a07e1fae871285911689",
+      "evidenceHash": "d9ebee6ca6ae40c17155a28c3e7ca367cadeb1e63e0ba94f162df1c9827ad5b5",
+      "generationFingerprint": "d57026cbec1c61a5f0d1e4dfffc07c43cae2035ecd29e74144f02c490cdd11a7",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "jobId": "dc7bec867fe52bbfd8c4a6c837b178fcd95538c00cbc1307d5aa27522f25684c",
+      "matchingValidCandidates": 1,
+      "promptVersion": "crow-definition-v2",
+      "supersededFingerprints": [],
+      "updated": 1792746634.5725074
+    },
+    {
+      "draftSha256": "491a849e4522048a135359837916516e3dc4119e24c2440611fdccc0663d644a",
+      "evidenceHash": "22ed893a7add2f67fd78a75b4b6e538bb4fc34fdfcab056503703021dc423c0b",
+      "generationFingerprint": "e2e92e1b2e00efa893141901669181ca39cb31c1cb253d1c556cbe1b3e7704bb",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "jobId": "f04e3254fe2083d9b6de88ed79618eedd49a403db15c558f320067a5895b701d",
+      "matchingValidCandidates": 1,
+      "promptVersion": "crow-definition-v2",
+      "supersededFingerprints": [],
+      "updated": 1792746646.01417
+    }
+  ],
+  "counts": {
+    "currentScopeRows": 20,
+    "heldRows": 32,
+    "jobs": 621,
+    "ledgerRequests": 95,
+    "machineDraftRows": 38,
+    "selected": 6,
+    "supersededCurrentDraftRows": 0
+  },
+  "credentialsRead": false,
+  "excludedByReason": {
+    "prompt_version_not_selected": 18,
+    "stale_generation_evidence": 1,
+    "unknown_job": 13
+  },
+  "format": "crow-active-drafts/1",
+  "held": [
+    {
+      "generationFingerprint": "91e77ba8bb56b5f20da96da84c3de21138e8fd5012b11da51671b987b588f490",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "02a1aa70905e513408ca3913c58578f8b5944d42d2c2a265d935d70005ee7045",
+      "promptVersion": "crow-definition-v1"
+    },
+    {
+      "generationFingerprint": "dc55a7a0f6e60bae00623c62988d55aa5bbbfccbce4c93ef091f853765b87e97",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "unknown_job"
+      ],
+      "jobId": "02a1aa70905e513408ca3913c58578f8b5944d42d2c2a265d935d70005ee7045",
+      "promptVersion": "crow-definition-v2"
+    },
+    {
+      "generationFingerprint": "750969f10e243814c2839f93b915a4c4466305f1efe3427b2c2d1ee7961b72f5",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "06eadfa5dace804b95fec01951b6fc9ad43cf85f624b9057a90aa35c8d435698",
+      "promptVersion": "crow-definition-v1"
+    },
+    {
+      "generationFingerprint": "f95e82d3b158b8ad88b68fb127d545827d71cf31d885260eb35f0130e6b6223e",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "unknown_job"
+      ],
+      "jobId": "06eadfa5dace804b95fec01951b6fc9ad43cf85f624b9057a90aa35c8d435698",
+      "promptVersion": "crow-definition-v2"
+    },
+    {
+      "generationFingerprint": "b6dda00f3df5cb2c5cfaf24ea4bdd4a2989c7fe8d57618d59d711927a9244ded",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "07d3eae795ea402ea1a76aef8c6f0812bf499637c7ef8b05ddc8148f9eb76821",
+      "promptVersion": "crow-definition-v1"
+    },
+    {
+      "generationFingerprint": "e8d7cb5c253e8b9acc6a4003b86fc9555dc50f0126e047f2ca55fa4d6b130b93",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "unknown_job"
+      ],
+      "jobId": "07d3eae795ea402ea1a76aef8c6f0812bf499637c7ef8b05ddc8148f9eb76821",
+      "promptVersion": "crow-definition-v2"
+    },
+    {
+      "generationFingerprint": "fc207af9e63443ac8cc6ad10eb286995010ba4bd18d5300bea8bfb77653eb2e1",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "1509c92b93a21fd5aa00cf2c73af0d061e0c248542f511214657bb2c906cb1f0",
+      "promptVersion": "crow-definition-v1"
+    },
+    {
+      "generationFingerprint": "d1557be7aa2e5d952d1916323f2f20c02ad6159efdb9a0b7ceba5d337085fa65",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "unknown_job"
+      ],
+      "jobId": "387f91c39c2976455e766b064e9771291cfdc7991c3949c5828b1460977bad99",
+      "promptVersion": "crow-definition-v2"
+    },
+    {
+      "generationFingerprint": "f45d12a2257eade8b753755ea9696a04a7663bdcbeaab7817ea603c80040f1c3",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "387f91c39c2976455e766b064e9771291cfdc7991c3949c5828b1460977bad99",
+      "promptVersion": "crow-definition-v1"
+    },
+    {
+      "generationFingerprint": "365458bb4a42e7828dbd62ed7a842c609ca674935eebc60df184228e822ba969",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "unknown_job"
+      ],
+      "jobId": "38ef8e641e90d74539a18ac20602f274c4b4e2499f92ac33bc6e665703f6ed9f",
+      "promptVersion": "crow-definition-v2"
+    },
+    {
+      "generationFingerprint": "d51101a0139b7dee5cd1489f3f4de638480db177e0e066c15652b342afeb6ce0",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "38ef8e641e90d74539a18ac20602f274c4b4e2499f92ac33bc6e665703f6ed9f",
+      "promptVersion": "crow-definition-v1"
+    },
+    {
+      "generationFingerprint": "dfcc6085b419222c05713756c9019773d31a859b79f7b20713e28ee466794ebe",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "unknown_job"
+      ],
+      "jobId": "3db713c46656581167366ed7803ec82a64b960bece5fe6f650082ef084427bb1",
+      "promptVersion": "crow-definition-v2"
+    },
+    {
+      "generationFingerprint": "e353311811b423805a4f3e13a795b82615ce00fab167cc185ead5954cfb81f00",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "3db713c46656581167366ed7803ec82a64b960bece5fe6f650082ef084427bb1",
+      "promptVersion": "crow-definition-v1"
+    },
+    {
+      "generationFingerprint": "234d6892566ff22031246f117b45d2a1efe61a96ce54f1a05268181356783e21",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "unknown_job"
+      ],
+      "jobId": "562aed918817f9d76f9d7ee50a3176a83698d466b8fa4f99bd387c567b0f6548",
+      "promptVersion": "crow-definition-v2"
+    },
+    {
+      "generationFingerprint": "fb80e8b6261204ba6176eb5016ce5492d80e19addbd76e046aea54bac09c9b4c",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "562aed918817f9d76f9d7ee50a3176a83698d466b8fa4f99bd387c567b0f6548",
+      "promptVersion": "crow-definition-v1"
+    },
+    {
+      "generationFingerprint": "205010d1bb5f6d9692a7bb12c41ad54db589fc3bd852d2cd201a9385ec038644",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "5c07e813373a67d29bee07f02e8cba2eaa4d71f5a5cf36e7ab2058f74f7afdd5",
+      "promptVersion": "crow-definition-v1"
+    },
+    {
+      "generationFingerprint": "cfceeac5a43564c3417fbb2b1bd4bd16377621b799c538ce9f533bbc8498dc30",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "unknown_job"
+      ],
+      "jobId": "5c07e813373a67d29bee07f02e8cba2eaa4d71f5a5cf36e7ab2058f74f7afdd5",
+      "promptVersion": "crow-definition-v2"
+    },
+    {
+      "generationFingerprint": "340df7e99c3bc53f4af7500093fb342602a0020241c2982450a1fd06850b0f24",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "99b715871bac5798382001b63914590628af98f04f315dbaf0e0b9fd57269176",
+      "promptVersion": "crow-definition-v1"
+    },
+    {
+      "generationFingerprint": "cece246d7cebb73d15151b090be3b078413fdf04ab932c47e5ede165d295d6fe",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "af674c7dc7722c31134e2b872afbeffa2d9cbfd57d5bbed880ff7123457c37ce",
+      "promptVersion": "crow-definition-v1"
+    },
+    {
+      "generationFingerprint": "7d2666bc52979967321475099e8160011b28a5e0bdfe7d740e3c51698e11392f",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "unknown_job"
+      ],
+      "jobId": "af8890ab5660fa40f4d8042a9b3b42de9f39d60dcc1be65de239553b0c45660c",
+      "promptVersion": "crow-definition-v2"
+    },
+    {
+      "generationFingerprint": "3136ed2de0e98e5f048b2bfb8870e785671f67cc0fae74de350812e172ed2779",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "unknown_job"
+      ],
+      "jobId": "b2083cc7dde7776108f326faaa5f737515565f9d9c65c5c5b5d693d4f2164433",
+      "promptVersion": "crow-definition-v2"
+    },
+    {
+      "generationFingerprint": "74a9813ada51ac1518c7f5c596c05ab0528bb6257466b04d537ec9cf55c60100",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "b2083cc7dde7776108f326faaa5f737515565f9d9c65c5c5b5d693d4f2164433",
+      "promptVersion": "crow-definition-v1"
+    },
+    {
+      "generationFingerprint": "fe8ab3de736edaea1b0ffac066748d67b90463d89f8103ff76f55f0f33cc8877",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "b642cc45b60669f51609579e149b6039c107eef3973d4e4252fb98d95a2cabb5",
+      "promptVersion": "crow-definition-v1"
+    },
+    {
+      "generationFingerprint": "8ba956fcee6bf537f041f480a0189a152c620f3ca1d5983d56788a28bc9578fb",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "unknown_job"
+      ],
+      "jobId": "baab65708369a4ac42552b3d6552e3b6f1a8ce935425275db80e8cc7bffa61ab",
+      "promptVersion": "crow-definition-v2"
+    },
+    {
+      "generationFingerprint": "d1155ae037aed351d21489503c52a98e1f891fdf68e50f58b196fc71b3756e9d",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "baab65708369a4ac42552b3d6552e3b6f1a8ce935425275db80e8cc7bffa61ab",
+      "promptVersion": "crow-definition-v1"
+    },
+    {
+      "generationFingerprint": "23f3e6bade8b04b43df74f79e4b0c24b7a1f4630045e6bd55e85ebad87df81cb",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "unknown_job"
+      ],
+      "jobId": "cf28f1bf83fad0133866147a9c8fe0245d8937f08aaae0ccd1901031a13d8e28",
+      "promptVersion": "crow-definition-v2"
+    },
+    {
+      "generationFingerprint": "2967ca0999b975f3cce5b3286a560db57bdf80cd612fa54389e0dff36fed4cbd",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "cf28f1bf83fad0133866147a9c8fe0245d8937f08aaae0ccd1901031a13d8e28",
+      "promptVersion": "crow-definition-v1"
+    },
+    {
+      "generationFingerprint": "0cffd43f707a470b4d5931dfa29a994c835b888b6bd5b3b972d1a7cefbb5e52f",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "stale_generation_evidence"
+      ],
+      "jobId": "d52eddd546a323d91bbeb73a21424ad489a51a8e0ef5bb2f91afb3abbc44d31c",
+      "promptVersion": "crow-definition-v2"
+    },
+    {
+      "generationFingerprint": "1b1119de570860333b2e2c132d07e826ff9c05118b41ee870e84bee1378eed19",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "d52eddd546a323d91bbeb73a21424ad489a51a8e0ef5bb2f91afb3abbc44d31c",
+      "promptVersion": "crow-definition-v1"
+    },
+    {
+      "generationFingerprint": "6a3680adfe2b63fa093ebd276786e3be5b3eb02a53df81160a023e3ddd0cfaad",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "dc7bec867fe52bbfd8c4a6c837b178fcd95538c00cbc1307d5aa27522f25684c",
+      "promptVersion": "crow-definition-v1"
+    },
+    {
+      "generationFingerprint": "878ac8304c61084ee1b96c11008facd304d54500cfbc0112adcfe7ca5211a016",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "unknown_job"
+      ],
+      "jobId": "e4e114b504be6d765d1a883797821ef3fda255c69a82c600e70e808c72b5df9e",
+      "promptVersion": "crow-definition-v2"
+    },
+    {
+      "generationFingerprint": "dd1b276667a9fcdeab62affbc8e020a2bfaa9ac93396f838f778b9f103074b74",
+      "generatorModel": "MiniMax-M3.1-Flash",
+      "issues": [
+        "prompt_version_not_selected"
+      ],
+      "jobId": "f04e3254fe2083d9b6de88ed79618eedd49a403db15c558f320067a5895b701d",
+      "promptVersion": "crow-definition-v1"
+    }
+  ],
+  "humanReviews": 0,
+  "modelFilter": "MiniMax-M3.1-Flash",
+  "networkRequests": 0,
+  "promptVersion": "crow-definition-v2",
+  "requestStatuses": {
+    "abstained": 1,
+    "machine_draft": 38,
+    "review_completed": 51,
+    "review_invalid": 4,
+    "schema_invalid": 1
+  },
+  "selection": "latest valid exact-source draft by updated descending, then fingerprint descending; no old-version fallback",
+  "validationStatus": "machine_draft"
+}

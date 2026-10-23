@@ -1,0 +1,299 @@
+[
+  {
+    "id": "deepseek/deepseek-v4.1-flash:batch",
+    "inputUsdPerMillion": 0.049999999999999996,
+    "outputUsdPerMillion": 0.15,
+    "contextLength": 1048576,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-5.3-flash",
+    "inputUsdPerMillion": 0.005200000000000001,
+    "outputUsdPerMillion": 0.1985,
+    "contextLength": 1048576,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-5.3-flash:batch",
+    "inputUsdPerMillion": 0.049999999999999996,
+    "outputUsdPerMillion": 0.18,
+    "contextLength": 1048576,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "deepseek/deepseek-v4-flash",
+    "inputUsdPerMillion": 0.091,
+    "outputUsdPerMillion": 0.182,
+    "contextLength": 1048576,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-4.7-flash",
+    "inputUsdPerMillion": 0.060500000000000005,
+    "outputUsdPerMillion": 0.39999999999999997,
+    "contextLength": 200000,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "deepseek/deepseek-v3.2-exp",
+    "inputUsdPerMillion": 0.27,
+    "outputUsdPerMillion": 0.41,
+    "contextLength": 163840,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "deepseek/deepseek-v3.2",
+    "inputUsdPerMillion": 0.28,
+    "outputUsdPerMillion": 0.42,
+    "contextLength": 163840,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "deepseek/deepseek-v4.1-flash",
+    "inputUsdPerMillion": 0.165,
+    "outputUsdPerMillion": 0.66,
+    "contextLength": 1048576,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "deepseek/deepseek-v4-flash-vision-exp",
+    "inputUsdPerMillion": 0.21559999999999999,
+    "outputUsdPerMillion": 0.6468,
+    "contextLength": 1048576,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-4.5-air",
+    "inputUsdPerMillion": 0.13,
+    "outputUsdPerMillion": 0.85,
+    "contextLength": 131072,
+    "structured": false,
+    "responseFormat": false,
+    "perRequest": "0"
+  },
+  {
+    "id": "deepseek/deepseek-chat-v3.1",
+    "inputUsdPerMillion": 0.25,
+    "outputUsdPerMillion": 0.95,
+    "contextLength": 163840,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-4.6v",
+    "inputUsdPerMillion": 0.3,
+    "outputUsdPerMillion": 0.8999999999999999,
+    "contextLength": 131072,
+    "structured": false,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "deepseek/deepseek-v3.1-terminus",
+    "inputUsdPerMillion": 0.27,
+    "outputUsdPerMillion": 1.0,
+    "contextLength": 163840,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "deepseek/deepseek-chat",
+    "inputUsdPerMillion": 0.2574,
+    "outputUsdPerMillion": 1.0287,
+    "contextLength": 163840,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "deepseek/deepseek-chat-v3-0324",
+    "inputUsdPerMillion": 0.29,
+    "outputUsdPerMillion": 1.1400000000000001,
+    "contextLength": 163840,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-5.3",
+    "inputUsdPerMillion": 0.079,
+    "outputUsdPerMillion": 1.4,
+    "contextLength": 1048576,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "deepseek/deepseek-v4.1-flash-1017",
+    "inputUsdPerMillion": 0.3,
+    "outputUsdPerMillion": 1.2,
+    "contextLength": 1048576,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-5.3-flashx",
+    "inputUsdPerMillion": 0.37,
+    "outputUsdPerMillion": 1.25,
+    "contextLength": 1048576,
+    "structured": false,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "deepseek/deepseek-v4-flash-0731",
+    "inputUsdPerMillion": 0.44,
+    "outputUsdPerMillion": 1.32,
+    "contextLength": 1048576,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-4.5v",
+    "inputUsdPerMillion": 0.6,
+    "outputUsdPerMillion": 1.7999999999999998,
+    "contextLength": 65536,
+    "structured": false,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-5.3:batch",
+    "inputUsdPerMillion": 0.44999999999999996,
+    "outputUsdPerMillion": 2.0,
+    "contextLength": 1048576,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-4.7",
+    "inputUsdPerMillion": 0.54,
+    "outputUsdPerMillion": 1.9800000000000002,
+    "contextLength": 204800,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "deepseek/deepseek-r1-0528",
+    "inputUsdPerMillion": 0.5,
+    "outputUsdPerMillion": 2.1500000000000004,
+    "contextLength": 163840,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-4.6",
+    "inputUsdPerMillion": 0.55,
+    "outputUsdPerMillion": 2.2,
+    "contextLength": 204800,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-4.5",
+    "inputUsdPerMillion": 0.6,
+    "outputUsdPerMillion": 2.2,
+    "contextLength": 131072,
+    "structured": false,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "deepseek/deepseek-v4-pro",
+    "inputUsdPerMillion": 0.9552599999999999,
+    "outputUsdPerMillion": 1.9105199999999998,
+    "contextLength": 1048576,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-5",
+    "inputUsdPerMillion": 1.0,
+    "outputUsdPerMillion": 3.1999999999999997,
+    "contextLength": 204800,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-5-turbo",
+    "inputUsdPerMillion": 1.2,
+    "outputUsdPerMillion": 4.0,
+    "contextLength": 202752,
+    "structured": false,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-5v-turbo",
+    "inputUsdPerMillion": 1.2,
+    "outputUsdPerMillion": 4.0,
+    "contextLength": 202752,
+    "structured": false,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "deepseek/deepseek-v4-pro-0813",
+    "inputUsdPerMillion": 1.32,
+    "outputUsdPerMillion": 3.9600000000000004,
+    "contextLength": 1048576,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-5.1",
+    "inputUsdPerMillion": 1.4,
+    "outputUsdPerMillion": 4.4,
+    "contextLength": 204800,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-5.2",
+    "inputUsdPerMillion": 0.0341,
+    "outputUsdPerMillion": 7.0,
+    "contextLength": 1048576,
+    "structured": true,
+    "responseFormat": true,
+    "perRequest": "0"
+  },
+  {
+    "id": "z-ai/glm-5.3-prime",
+    "inputUsdPerMillion": 2.8,
+    "outputUsdPerMillion": 8.8,
+    "contextLength": 1000000,
+    "structured": false,
+    "responseFormat": true,
+    "perRequest": "0"
+  }
+]

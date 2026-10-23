@@ -1,0 +1,16 @@
+{
+  "reference": "English job queue before registering the complete upstream snapshot",
+  "referenceEnglishJobCount": 621,
+  "matchCounts": {
+    "no_upstream_word_match": 387,
+    "english_available_but_reading_ambiguous": 23,
+    "exact_reading_english_reuse_available": 201,
+    "english_available_reading_differs_or_invalid": 10
+  },
+  "status": "Historical comparison; final inventory/job counts must be rebuilt with the registered complete snapshot.",
+  "warnings": [
+    "An exact reading match still requires source/sense quality checks.",
+    "Ambiguous or differing readings go to review, not paid redefinition of already available English material."
+  ],
+  "inferenceCallsForComparison": 0
+}

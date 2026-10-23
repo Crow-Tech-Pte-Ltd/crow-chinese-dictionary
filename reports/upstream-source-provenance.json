@@ -1,0 +1,94 @@
+{
+  "sourceType": "English Wiktionary extracted/postprocessed by Kaikki / Wiktextract",
+  "extractionDate": "2026-10-21",
+  "wiktionaryDumpDate": "2026-10-01",
+  "publisherPage": "https://kaikki.org/dictionary/Chinese/",
+  "rawDownloadPage": "https://kaikki.org/dictionary/rawdata.html",
+  "copyrightSources": [
+    "https://kaikki.org/dictionary/",
+    "https://en.wiktionary.org/wiki/Wiktionary:Copyrights",
+    "https://en.wiktionary.org/wiki/Wiktionary:Text_of_Creative_Commons_Attribution-ShareAlike_4.0_International_License"
+  ],
+  "dictionaryTextLicence": "Wiktionary original text: CC BY-SA 4.0 / GFDL; this adaptation uses CC BY-SA 4.0 with attribution, source article links and retained lexical restrictions.",
+  "postprocessedLanguageDownloadsDeprecated": true,
+  "downloads": [
+    {
+      "languageBucket": "Chinese",
+      "url": "https://kaikki.org/dictionary/Chinese/kaikki.org-dictionary-Chinese.jsonl.gz",
+      "compressedBytes": 155995894,
+      "sha256": "a120df99ecb13255f815318a8ac8edabd553456254d1f0eeac89e5a25a06103a",
+      "extractionDate": "2026-10-21",
+      "wiktionaryDumpDate": "2026-10-01",
+      "publisherPage": "https://kaikki.org/dictionary/Chinese/",
+      "lastModified": "Wed, 21 Oct 2026 13:39:17 GMT",
+      "downloadSecondsMeasured": 24.06
+    },
+    {
+      "languageBucket": "Mandarin",
+      "url": "https://kaikki.org/dictionary/Mandarin/kaikki.org-dictionary-Mandarin.jsonl.gz",
+      "compressedBytes": 7200238,
+      "sha256": "7c4e90d0eaccfc7b8a7033a130813283ae47ab1d3e7f225896ff34470c2988d3",
+      "extractionDate": "2026-10-21",
+      "wiktionaryDumpDate": "2026-10-01",
+      "publisherPage": "https://kaikki.org/dictionary/Mandarin/",
+      "lastModified": "Wed, 21 Oct 2026 13:40:21 GMT",
+      "downloadSecondsMeasured": 3.13
+    },
+    {
+      "languageBucket": "Cantonese",
+      "url": "https://kaikki.org/dictionary/Cantonese/kaikki.org-dictionary-Cantonese.jsonl.gz",
+      "compressedBytes": 625033,
+      "sha256": "296f984293d955f8e43aafeaa570fea122ba7f992a13714dca694c376dee7a73",
+      "extractionDate": "2026-10-21",
+      "wiktionaryDumpDate": "2026-10-01",
+      "publisherPage": "https://kaikki.org/dictionary/Cantonese/",
+      "lastModified": "Wed, 21 Oct 2026 13:47:57 GMT",
+      "downloadSecondsMeasured": 1.42
+    }
+  ],
+  "cumulativeDownloadBytes": 163821165,
+  "downloadCapBytes": 524288000,
+  "separateLanguageBuckets": {
+    "Mandarin": {
+      "page": "https://kaikki.org/dictionary/Mandarin/",
+      "distinctWordsAsReportedByPublisher": 75796,
+      "romanizationSensesAsReportedByPublisher": 111422,
+      "characterSensesAsReportedByPublisher": 2280,
+      "warning": "Primarily romanization index, not the main Chinese-word English dictionary"
+    },
+    "Cantonese": {
+      "page": "https://kaikki.org/dictionary/Cantonese/",
+      "distinctWordsAsReportedByPublisher": 3751,
+      "romanizationSensesAsReportedByPublisher": 13495,
+      "characterSensesAsReportedByPublisher": 1620,
+      "warning": "Keep separate from Mandarin; not imported by this distillation"
+    }
+  },
+  "fullRawAllLanguages": {
+    "reportedCompressedSize": "2.9GB",
+    "downloaded": false,
+    "reason": "Exceeds authorised 500 MiB download cap"
+  },
+  "sourceAttribution": "English Wiktionary contributors; Kaikki / Wiktextract (Tatu Ylonen and contributors).",
+  "sourceReuseLimits": [
+    "General Chinese/Han labels alone do not establish Mandarin; explicit Mandarin Pinyin evidence is required.",
+    "Separate Mandarin/Cantonese buckets primarily index romanizations and characters and are not the Chinese-word corpus.",
+    "Source-imported definitions are not human-reviewed Crow definitions; retain licences and usage restrictions."
+  ],
+  "agentInferenceCalls": 0,
+  "agentInferenceSpendUsd": 0,
+  "compactSubset": {
+    "file": "/data/english-upstream-entries.jsonl.gz",
+    "sha256": "c85fbc7d5eba6c68d71298f844979a778471ef0d4aceccd25e2e0756cfdb22b6",
+    "compressedBytes": 20792117,
+    "sourceImportedRows": 155016,
+    "exactSourceHeadwords": 142067,
+    "humanReviewed": false,
+    "scopeMetadataPreserved": true,
+    "publicQaReport": "reports/upstream-source-qa.json",
+    "canonicalHeadwords": 142025,
+    "sourceAttestedScriptAliases": true,
+    "inventoryIdentityChanged": true,
+    "fullInventoryRebuildRequired": true
+  }
+}
