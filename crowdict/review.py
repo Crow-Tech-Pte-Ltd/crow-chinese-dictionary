@@ -19,9 +19,9 @@ import time
 
 from .generate import (Settings, ENDPOINTS, BudgetStop, SafeHTTPError, Ledger,
     canonical, micro_usd, money, read_key, http_transport, extract_output,
-    BillingKeyError, check_billing_key)
+    BillingKeyError, check_billing_key, SYNTAX_RETRY_VERSION)
 from .validate import (canonical_sha, evidence_hash, model_identity, read_jsonl,
-    read_results, validate_draft)
+    read_results, validate_draft, PRIVATE_TEXT)
 
 from .common import SEMANTIC_REVIEW_VERSION as REVIEW_VERSION
 CHECKS = ("identity", "attestedReading", "targetLanguage", "senseSeparation", "registerAndPartOfSpeech", "usageRestrictions", "sourceCompatibility")
@@ -128,6 +128,18 @@ def prepare(job, result, settings):
     payload = {"model": settings.model, "messages": [{"role": "system", "content": SYSTEM},
         {"role": "user", "content": canonical(user)}], "stream": False,
         "max_completion_tokens": settings.max_output_tokens}
+    if settings.syntax_retry:
+        payload["messages"][0]["content"] += (
+            "\n\nCONTROL FORMAT ONLY (" + SYNTAX_RETRY_VERSION + "). All semantic checks and verdict standards "
+            "above are unchanged. Return the exact JSON fields and echoed identity/hash values. Review every "
+            "draft sense exactly once using its zero-based senseIndex. For each senseIndex i, sourceRefs must "
+            "be copied ONLY from draft.senses[i].sourceRefs, without duplicates. Do not cite another sense's "
+            "evidence IDs, inner raw-source sense IDs, source names or invented references. Matching evidence "
+            "elsewhere in the job is not permission to attach it to this sense. Keep notes at most 1024 "
+            "characters and each explanation at most 600 characters; no URLs, private paths, control characters, "
+            "markdown fences or extra fields. Be concise without changing the substantive verdict. "
+            "Reject or be uncertain whenever the unchanged semantic rules require it; format repair is never "
+            "a reason to approve an unsupported definition.")
     if settings.provider == "openrouter":
         payload["temperature"] = 0.1
         payload["reasoning"] = {"effort": "low", "exclude": True}
@@ -135,6 +147,19 @@ def prepare(job, result, settings):
         for field, value in [('jobId', job['jobId']), ('draftSha256', draft_hash), ('evidenceHash', source_hash)]:
             bound_schema['properties'][field]['enum'] = [value]
         bound_schema['properties']['senseReviews']['items']['properties']['sourceRefs']['items']['enum'] = sorted(row['id'] for row in referenced)
+        if settings.syntax_retry:
+            base_item = bound_schema["properties"]["senseReviews"]["items"]
+            alternatives = []
+            for index, sense in enumerate(result["draft"]["senses"]):
+                item = json.loads(json.dumps(base_item))
+                item["properties"]["senseIndex"]["enum"] = [index]
+                item["properties"]["sourceRefs"]["items"]["enum"] = sorted(set(sense["sourceRefs"]))
+                item["properties"]["explanation"]["maxLength"] = 600
+                alternatives.append(item)
+            bound_schema["properties"]["senseReviews"]["items"] = {"anyOf": alternatives}
+            bound_schema["properties"]["senseReviews"]["minItems"] = len(alternatives)
+            bound_schema["properties"]["senseReviews"]["maxItems"] = len(alternatives)
+            bound_schema["properties"]["notes"]["maxLength"] = 1024
         payload["response_format"] = {"type": "json_schema", "json_schema": {
             "name": "crow_semantic_review", "strict": True, "schema": bound_schema}}
         payload["provider"] = {"data_collection": "deny", "require_parameters": True,
@@ -169,7 +194,7 @@ def validate_review(value, plan):
         issues.append("invalid_review_checks")
         checks = {}
     notes = value["notes"]
-    if not isinstance(notes, str) or len(notes) > 500 or any(ord(c) < 32 and c not in "\n\t" for c in notes):
+    if not isinstance(notes, str) or len(notes) > 1024 or any(ord(c) < 32 and c not in "\n\t" for c in notes) or PRIVATE_TEXT.search(notes):
         issues.append("invalid_review_notes")
     senses = plan["result"]["draft"]["senses"]
     reviews = value["senseReviews"]
@@ -219,8 +244,8 @@ def reserve_review(plan, settings, ledger):
             raise BudgetStop("persistent_review_budget_limit")
         ledger.check_provider_budget(db, settings.provider, plan["reservedMicro"])
         db.execute("UPDATE budget SET spent_micro=spent_micro+?,calls=calls+1,tokens_reserved=tokens_reserved+? WHERE id=1", (plan["reservedMicro"], token_bound))
-        db.execute("INSERT INTO requests(fingerprint,job_id,provider,model,prompt_version,status,updated,evidence_hash) VALUES(?,?,?,?,?,'requesting',?,?) ON CONFLICT(fingerprint) DO UPDATE SET status='requesting',updated=excluded.updated,evidence_hash=excluded.evidence_hash",
-            (plan["fingerprint"], plan["job"]["jobId"], settings.provider, settings.model, REVIEW_VERSION, time.time(), plan["evidenceHash"]))
+        db.execute("INSERT INTO requests(fingerprint,job_id,provider,model,prompt_version,status,updated,evidence_hash,request_variant) VALUES(?,?,?,?,?,'requesting',?,?,?) ON CONFLICT(fingerprint) DO UPDATE SET status='requesting',updated=excluded.updated,evidence_hash=excluded.evidence_hash,request_variant=excluded.request_variant",
+            (plan["fingerprint"], plan["job"]["jobId"], settings.provider, settings.model, REVIEW_VERSION, time.time(), plan["evidenceHash"], SYNTAX_RETRY_VERSION if settings.syntax_retry else "default"))
         cur = db.execute("INSERT INTO attempts(fingerprint,attempt_no,status,reserved_micro,settled_micro,input_bound,output_bound,started) VALUES(?,?,'reserved',?,?,?,?,?)",
             (plan["fingerprint"], count + 1, plan["reservedMicro"], plan["reservedMicro"], plan["inputBound"], settings.max_output_tokens, time.time()))
         db.commit()
@@ -385,13 +410,15 @@ def main(argv=None):
     parser.add_argument("--allow-credit-pack-debit", action="store_true")
     parser.add_argument("--raise-budget-caps", action="store_true")
     parser.add_argument("--key-file")
+    parser.add_argument("--syntax-retry", action="store_true",
+        help="Opt-in format-only retry with per-sense citation enums; caller selects structural failures, never semantic rejections")
     parser.add_argument("--execute", action="store_true")
     args = parser.parse_args(argv)
     try:
         config = Settings(args.provider, args.model, args.endpoint or ENDPOINTS[args.provider],
             args.input_usd_per_million, args.output_usd_per_million, args.max_usd, args.max_calls,
             args.max_total_tokens, args.max_output_tokens, args.max_attempts, args.timeout,
-            args.billing, args.allow_credit_pack_debit, args.workers, args.provider_max_usd)
+            args.billing, args.allow_credit_pack_debit, args.workers, args.provider_max_usd, args.syntax_retry)
         if args.max_jobs < 1:
             raise ValueError("max_jobs_must_be_positive")
         if args.execute and config.billing == "token-plan" and not config.allow_credit_pack_debit:

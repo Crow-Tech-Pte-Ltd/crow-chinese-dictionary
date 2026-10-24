@@ -1,15 +1,15 @@
 {
   "automaticChecksAreHumanReview": false,
   "counts": {
-    "accepted": 40970,
+    "accepted": 52568,
     "humanReviewed": 0,
     "invalidDrafts": 9,
-    "jobs": 41023,
-    "machineChecked": 288,
-    "notGenerated": 27,
-    "pending": 53,
-    "sourceImported": 40682,
-    "validDrafts": 40987
+    "jobs": 53964,
+    "machineChecked": 7081,
+    "notGenerated": 209,
+    "pending": 1396,
+    "sourceImported": 45487,
+    "validDrafts": 53746
   },
   "format": "crow-chinese-dictionary/1",
   "includeMachineChecked": true,

@@ -1,1 +1,1 @@
-{"counts": {"jobs": 41023, "validDrafts": 40987, "invalidDrafts": 9, "pending": 53, "notGenerated": 27, "humanReviewed": 0, "machineChecked": 288, "sourceImported": 40682, "accepted": 40970}, "networkRequests": 0, "humanReviewIsNotInferred": true}
+{"counts": {"jobs": 53964, "validDrafts": 53746, "invalidDrafts": 9, "pending": 1396, "notGenerated": 209, "humanReviewed": 0, "machineChecked": 7081, "sourceImported": 45487, "accepted": 52568}, "networkRequests": 0, "humanReviewIsNotInferred": true}

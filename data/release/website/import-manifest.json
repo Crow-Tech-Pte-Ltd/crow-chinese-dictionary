@@ -1,8 +1,8 @@
 {
   "containsSyntheticDefinitions": true,
   "definitionOrigins": {
-    "model_generated": 288,
-    "source_imported": 40682
+    "model_generated": 7081,
+    "source_imported": 45487
   },
   "format": "crow-chinese-dictionary/1",
   "installation": "Explicit opt-in. Import by source id; removal must preserve personal cards/books/notes. No website mutation is performed by this exporter.",
@@ -10,10 +10,108 @@
     {
       "audioCoverage": "not_checked",
       "containsSyntheticDefinitions": true,
-      "count": 40970,
+      "count": 261,
       "definitionOrigins": {
-        "model_generated": 288,
-        "source_imported": 40682
+        "model_generated": 261
+      },
+      "disabledByDefault": true,
+      "file": "website/ar.json.gz",
+      "id": "crow-ar",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "ar"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 317,
+      "definitionOrigins": {
+        "model_generated": 317
+      },
+      "disabledByDefault": true,
+      "file": "website/bg.json.gz",
+      "id": "crow-bg",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "bg"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 293,
+      "definitionOrigins": {
+        "model_generated": 293
+      },
+      "disabledByDefault": true,
+      "file": "website/ca.json.gz",
+      "id": "crow-ca",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "ca"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 394,
+      "definitionOrigins": {
+        "model_generated": 394
+      },
+      "disabledByDefault": true,
+      "file": "website/cs.json.gz",
+      "id": "crow-cs",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "cs"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 328,
+      "definitionOrigins": {
+        "model_generated": 328
+      },
+      "disabledByDefault": true,
+      "file": "website/da.json.gz",
+      "id": "crow-da",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "da"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 20,
+      "definitionOrigins": {
+        "model_generated": 20
+      },
+      "disabledByDefault": true,
+      "file": "website/de.json.gz",
+      "id": "crow-de",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "de"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 309,
+      "definitionOrigins": {
+        "model_generated": 309
+      },
+      "disabledByDefault": true,
+      "file": "website/el.json.gz",
+      "id": "crow-el",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "el"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 45781,
+      "definitionOrigins": {
+        "model_generated": 294,
+        "source_imported": 45487
       },
       "disabledByDefault": true,
       "file": "website/en.json.gz",
@@ -21,6 +119,342 @@
       "license": "CC BY-SA 4.0",
       "source": "crow-chinese-dictionary",
       "targetLanguage": "en"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 7,
+      "definitionOrigins": {
+        "model_generated": 7
+      },
+      "disabledByDefault": true,
+      "file": "website/es.json.gz",
+      "id": "crow-es",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "es"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 268,
+      "definitionOrigins": {
+        "model_generated": 268
+      },
+      "disabledByDefault": true,
+      "file": "website/fi.json.gz",
+      "id": "crow-fi",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "fi"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 7,
+      "definitionOrigins": {
+        "model_generated": 7
+      },
+      "disabledByDefault": true,
+      "file": "website/fr.json.gz",
+      "id": "crow-fr",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "fr"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 311,
+      "definitionOrigins": {
+        "model_generated": 311
+      },
+      "disabledByDefault": true,
+      "file": "website/hr.json.gz",
+      "id": "crow-hr",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "hr"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 47,
+      "definitionOrigins": {
+        "model_generated": 47
+      },
+      "disabledByDefault": true,
+      "file": "website/hu.json.gz",
+      "id": "crow-hu",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "hu"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 5,
+      "definitionOrigins": {
+        "model_generated": 5
+      },
+      "disabledByDefault": true,
+      "file": "website/id.json.gz",
+      "id": "crow-id",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "id"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 272,
+      "definitionOrigins": {
+        "model_generated": 272
+      },
+      "disabledByDefault": true,
+      "file": "website/it.json.gz",
+      "id": "crow-it",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "it"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 37,
+      "definitionOrigins": {
+        "model_generated": 37
+      },
+      "disabledByDefault": true,
+      "file": "website/ja.json.gz",
+      "id": "crow-ja",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "ja"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 128,
+      "definitionOrigins": {
+        "model_generated": 128
+      },
+      "disabledByDefault": true,
+      "file": "website/ko.json.gz",
+      "id": "crow-ko",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "ko"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 324,
+      "definitionOrigins": {
+        "model_generated": 324
+      },
+      "disabledByDefault": true,
+      "file": "website/lt.json.gz",
+      "id": "crow-lt",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "lt"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 224,
+      "definitionOrigins": {
+        "model_generated": 224
+      },
+      "disabledByDefault": true,
+      "file": "website/ms.json.gz",
+      "id": "crow-ms",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "ms"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 304,
+      "definitionOrigins": {
+        "model_generated": 304
+      },
+      "disabledByDefault": true,
+      "file": "website/nl.json.gz",
+      "id": "crow-nl",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "nl"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 335,
+      "definitionOrigins": {
+        "model_generated": 335
+      },
+      "disabledByDefault": true,
+      "file": "website/no.json.gz",
+      "id": "crow-no",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "no"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 154,
+      "definitionOrigins": {
+        "model_generated": 154
+      },
+      "disabledByDefault": true,
+      "file": "website/pl.json.gz",
+      "id": "crow-pl",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "pl"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 267,
+      "definitionOrigins": {
+        "model_generated": 267
+      },
+      "disabledByDefault": true,
+      "file": "website/pt.json.gz",
+      "id": "crow-pt",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "pt"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 284,
+      "definitionOrigins": {
+        "model_generated": 284
+      },
+      "disabledByDefault": true,
+      "file": "website/ro.json.gz",
+      "id": "crow-ro",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "ro"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 297,
+      "definitionOrigins": {
+        "model_generated": 297
+      },
+      "disabledByDefault": true,
+      "file": "website/ru.json.gz",
+      "id": "crow-ru",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "ru"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 311,
+      "definitionOrigins": {
+        "model_generated": 311
+      },
+      "disabledByDefault": true,
+      "file": "website/sk.json.gz",
+      "id": "crow-sk",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "sk"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 298,
+      "definitionOrigins": {
+        "model_generated": 298
+      },
+      "disabledByDefault": true,
+      "file": "website/sl.json.gz",
+      "id": "crow-sl",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "sl"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 310,
+      "definitionOrigins": {
+        "model_generated": 310
+      },
+      "disabledByDefault": true,
+      "file": "website/sv.json.gz",
+      "id": "crow-sv",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "sv"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 295,
+      "definitionOrigins": {
+        "model_generated": 295
+      },
+      "disabledByDefault": true,
+      "file": "website/th.json.gz",
+      "id": "crow-th",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "th"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 321,
+      "definitionOrigins": {
+        "model_generated": 321
+      },
+      "disabledByDefault": true,
+      "file": "website/tr.json.gz",
+      "id": "crow-tr",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "tr"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 4,
+      "definitionOrigins": {
+        "model_generated": 4
+      },
+      "disabledByDefault": true,
+      "file": "website/vi.json.gz",
+      "id": "crow-vi",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "vi"
+    },
+    {
+      "audioCoverage": "not_checked",
+      "containsSyntheticDefinitions": true,
+      "count": 55,
+      "definitionOrigins": {
+        "model_generated": 55
+      },
+      "disabledByDefault": true,
+      "file": "website/zh.json.gz",
+      "id": "crow-zh",
+      "license": "CC BY-SA 4.0",
+      "source": "crow-chinese-dictionary",
+      "targetLanguage": "zh"
     }
   ]
 }

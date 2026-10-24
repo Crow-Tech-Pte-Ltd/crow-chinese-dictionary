@@ -27,6 +27,7 @@ from .validate import model_identity, evidence_hash
 from .common import is_derived_crow_source
 
 PROMPT_VERSION = "crow-definition-v3"
+SYNTAX_RETRY_VERSION = "syntax-retry-v1"
 ENDPOINTS = {
     "openrouter": "https://openrouter.ai/api/v1/chat/completions",
     "minimax": "https://api.minimax.io/v1/chat/completions",
@@ -130,8 +131,11 @@ class Settings:
     allow_credit_pack_debit: bool = False
     workers: int = 1
     provider_max_usd: Decimal | None = None
+    syntax_retry: bool = False
 
     def __post_init__(self):
+        if type(self.syntax_retry) is not bool:
+            raise ValueError("syntax_retry must be a boolean")
         if self.provider not in ENDPOINTS or self.endpoint != ENDPOINTS[self.provider]:
             raise ValueError("Only the exact documented provider endpoint is permitted")
         if not self.model or len(self.model) > 200 or re.search(r"[\s\x00-\x1f]", self.model):
@@ -204,11 +208,31 @@ def build_request(job: dict, config: Settings) -> tuple[dict, str, int, int, lis
     payload = {"model": config.model, "messages": [{"role": "system", "content": SYSTEM},
                {"role": "user", "content": canonical(user)}], "stream": False,
                "max_completion_tokens": config.max_output_tokens}
+    if config.syntax_retry:
+        template = {**identity, "senses": [{"definition": "", "pos": "", "register": "",
+            "sourceRefs": [evidence[0]["id"]]}], "abstainReason": ""}
+        payload["messages"][0]["content"] += (
+            "\n\nCONTROL FORMAT ONLY (" + SYNTAX_RETRY_VERSION + "). The semantic instructions above are unchanged. "
+            "Return exactly the required JSON keys shown below, with the protected identity values unchanged. "
+            "The control field is spelled abstainReason exactly, not abstrainReason or abstain_reason. "
+            "Every sense has exactly definition, pos, register, sourceRefs. sourceRefs is a JSON array of outer "
+            "evidence IDs actually supporting that same sense. Do not rename fields, wrap the object, add prose, "
+            "use markdown fences, duplicate keys or output an unfinished object. This is a FORMAT TEMPLATE, "
+            "not a proposed definition: fill definition only from supplied evidence, leave pos/register empty. "
+            "With nonempty supported senses, include abstainReason as the empty string. If evidence is insufficient, "
+            "keep the exact same identity, return senses as [] and a specific nonempty abstainReason. "
+            "Do not change or invent any lexical content to satisfy the format. Template: " + canonical(template))
     if config.provider == "openrouter":
         payload["temperature"] = 0.1
         payload["reasoning"] = {"effort": "low", "exclude": True}
         payload["response_format"] = {"type": "json_schema", "json_schema": {
             "name": "crow_dictionary_definition", "strict": True, "schema": OUTPUT_SCHEMA}}
+        if config.syntax_retry:
+            syntax_schema = json.loads(json.dumps(OUTPUT_SCHEMA))
+            for field, value in identity.items():
+                syntax_schema["properties"][field]["enum"] = [value]
+            syntax_schema["properties"]["senses"]["items"]["properties"]["sourceRefs"]["items"]["enum"] = [row["id"] for row in evidence]
+            payload["response_format"]["json_schema"]["schema"] = syntax_schema
         payload["provider"] = {"data_collection": "deny", "require_parameters": True,
              "allow_fallbacks": False, "sort": "price", "max_price": {
                  "prompt": float(config.input_rate), "completion": float(config.output_rate)}}
@@ -286,7 +310,7 @@ class Ledger:
                 CREATE TABLE IF NOT EXISTS requests (fingerprint TEXT PRIMARY KEY,job_id TEXT NOT NULL,
                     provider TEXT NOT NULL,model TEXT NOT NULL,prompt_version TEXT NOT NULL,
                     status TEXT NOT NULL,updated REAL NOT NULL,output_json TEXT,issues_json TEXT,
-                    evidence_hash TEXT);
+                    evidence_hash TEXT,request_variant TEXT);
                 CREATE TABLE IF NOT EXISTS attempts (id INTEGER PRIMARY KEY AUTOINCREMENT,
                     fingerprint TEXT NOT NULL,attempt_no INTEGER NOT NULL,status TEXT NOT NULL,
                     reserved_micro INTEGER NOT NULL,settled_micro INTEGER NOT NULL,
@@ -301,6 +325,8 @@ class Ledger:
             if "evidence_hash" not in columns:
                 # Old rows retain NULL: never invent provenance after a call.
                 db.execute("ALTER TABLE requests ADD COLUMN evidence_hash TEXT")
+            if "request_variant" not in columns:
+                db.execute("ALTER TABLE requests ADD COLUMN request_variant TEXT")
             caps = db.execute("SELECT max_micro,max_calls,max_tokens FROM budget WHERE id=1").fetchone()
             proposed = (micro_usd(config.max_usd), config.max_calls, config.max_total_tokens)
             if caps is None:
@@ -368,8 +394,8 @@ class Ledger:
                 raise BudgetStop("persistent_budget_or_token_or_call_limit")
             self.check_provider_budget(db, self.config.provider, amount)
             db.execute("UPDATE budget SET spent_micro=spent_micro+?,calls=calls+1,tokens_reserved=tokens_reserved+? WHERE id=1", (amount, token_bound))
-            db.execute("INSERT INTO requests(fingerprint,job_id,provider,model,prompt_version,status,updated,evidence_hash) VALUES(?,?,?,?,?,'requesting',?,?) ON CONFLICT(fingerprint) DO UPDATE SET status='requesting',updated=excluded.updated,evidence_hash=excluded.evidence_hash",
-                (fingerprint, job["id"], self.config.provider, self.config.model, PROMPT_VERSION, time.time(), evidence_hash(job)))
+            db.execute("INSERT INTO requests(fingerprint,job_id,provider,model,prompt_version,status,updated,evidence_hash,request_variant) VALUES(?,?,?,?,?,'requesting',?,?,?) ON CONFLICT(fingerprint) DO UPDATE SET status='requesting',updated=excluded.updated,evidence_hash=excluded.evidence_hash,request_variant=excluded.request_variant",
+                (fingerprint, job["id"], self.config.provider, self.config.model, PROMPT_VERSION, time.time(), evidence_hash(job), SYNTAX_RETRY_VERSION if self.config.syntax_retry else "default"))
             cur = db.execute("INSERT INTO attempts(fingerprint,attempt_no,status,reserved_micro,settled_micro,input_bound,output_bound,started) VALUES(?,?,'reserved',?,?,?,?,?)",
                 (fingerprint, count + 1, amount, amount, input_bound, self.config.max_output_tokens, time.time()))
             db.commit()
@@ -564,13 +590,15 @@ def main(argv=None):
     parser.add_argument("--billing", choices=("payg", "token-plan"), default="payg")
     parser.add_argument("--allow-credit-pack-debit", action="store_true", help="Required for MiniMax Token Plan execution: acknowledges the service may debit purchased packs after included quota")
     parser.add_argument("--key-file", help="Read only when --execute is explicitly supplied; never copied or logged")
+    parser.add_argument("--syntax-retry", action="store_true",
+        help="Opt-in control-format variant for an operator-selected structural-failure scope; never override semantic rejection/uncertainty")
     parser.add_argument("--execute", action="store_true", help="Opt into actual paid/quota-consuming requests; otherwise local dry-run only")
     args = parser.parse_args(argv)
     try:
         config = Settings(args.provider, args.model, args.endpoint or ENDPOINTS[args.provider],
             args.input_usd_per_million, args.output_usd_per_million, args.max_usd,
             args.max_calls, args.max_total_tokens, args.max_output_tokens, args.max_attempts,
-            args.timeout, args.billing, args.allow_credit_pack_debit, args.workers, args.provider_max_usd)
+            args.timeout, args.billing, args.allow_credit_pack_debit, args.workers, args.provider_max_usd, args.syntax_retry)
         if args.max_jobs is not None and args.max_jobs < 1:
             raise ValueError("max-jobs must be positive")
         if args.execute and config.billing == "token-plan" and not config.allow_credit_pack_debit:

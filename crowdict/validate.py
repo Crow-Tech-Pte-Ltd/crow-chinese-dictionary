@@ -506,7 +506,12 @@ def _website_entry(record):
     metadata = {"source": "crow-" + record["targetLanguage"], "canonicalWord": record["canonicalWord"],
                 "lookupAliases": record["scriptAliases"], "chineseLanguage": "cantonese" if cantonese else "mandarin",
                 "pos": "; ".join(sorted({sense["pos"] for sense in senses if sense["pos"]})),
-                "definitionProvenance": record["validation"], "dataOrigin": record["dataOrigin"],
+                # Runtime packs retain the origin/review label. Per-entry
+                # random audit hashes stay in the full archival entries;
+                # the runtime pack itself is authenticated by its manifest SHA.
+                "definitionProvenance": {key: record["validation"][key]
+                                         for key in ("status", "automaticChecks", "generatorModel")},
+                "dataOrigin": record["dataOrigin"],
                 "syntheticDefinition": record["syntheticDefinition"], "sourceSenses": senses}
     if cantonese:
         metadata["jyutping"] = record["lexicalReading"]

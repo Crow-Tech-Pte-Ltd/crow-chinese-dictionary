@@ -1,57 +1,212 @@
 {
   "assets": [
     {
-      "bytes": 5566,
+      "bytes": 8836,
       "file": "NOTICE.txt",
-      "sha256": "ea752c713b77f9d764e90bfc3cd089acc1f790e5a9aaa7098c75f9a6fb3acd52"
+      "sha256": "f2fb9968c4fe2180f0c1029594c1b1e9fe2066555a438395fd7b38a92981da2f"
     },
     {
-      "bytes": 11609687,
+      "bytes": 17610478,
       "file": "entries.jsonl.gz",
-      "sha256": "f570445869ddfea49b33faec4f72904bd2d0f0273de1b50e8ee74cf90ccfc4f1"
+      "sha256": "c0ad630b95492261db431e805c921380681a1f1ab1003d1e6dd88b42ab0c15d8"
     },
     {
-      "bytes": 17228100,
+      "bytes": 22701245,
       "file": "review-queue.jsonl",
-      "sha256": "80f194662d288f61d85caf8584a82fde029135a9977610881d6ed73a68bd399e"
+      "sha256": "2867b9c6896b47537863432d1139a9d3fe8293838cb39c0de7945c197b3c5526"
     },
     {
-      "bytes": 384,
+      "bytes": 388,
       "file": "validation-report.json",
-      "sha256": "2fbc6bed81cf7637372a3ae3d6b92e0671ddaede21178aba158aca75fd809d7b"
+      "sha256": "bbd09d2a3b1ce5b058dae616457a18ead3667abcffefedad0760a584117f5cf6"
     },
     {
-      "bytes": 7305805,
+      "bytes": 51926,
+      "file": "website/ar.json.gz",
+      "sha256": "d6cfb617a481ae49292d050bd3b22ee259fb2c44ab6f7a841406f31d0edbe67d"
+    },
+    {
+      "bytes": 71258,
+      "file": "website/bg.json.gz",
+      "sha256": "034b4c393552eda78d0e350b66da240930ff1c2cf1d36abbb201c4ef21badb1f"
+    },
+    {
+      "bytes": 62840,
+      "file": "website/ca.json.gz",
+      "sha256": "8912ae29f96406dc3972fd07d012cc60e2db869f8ae1e2114b18d8513f76d7d4"
+    },
+    {
+      "bytes": 83409,
+      "file": "website/cs.json.gz",
+      "sha256": "06b8ba724992d0d5ed71a59fa0652d51c2933926ec7f2fe0e6ec3c425681caea"
+    },
+    {
+      "bytes": 69676,
+      "file": "website/da.json.gz",
+      "sha256": "0d5306eb51d12f6b874040680e4ba4acdb4879120d4b8c384521037f631a601a"
+    },
+    {
+      "bytes": 3980,
+      "file": "website/de.json.gz",
+      "sha256": "1f21b625f429d9f3a2f789adf37dac5f7ea22003c27bedc87c83bc48e974095f"
+    },
+    {
+      "bytes": 70000,
+      "file": "website/el.json.gz",
+      "sha256": "c7b6c2fb0753786eda996ebc9ab07fdee74eab645b67566c46a4156b31c75dae"
+    },
+    {
+      "bytes": 4080306,
       "file": "website/en.json.gz",
-      "sha256": "bfd6f70e3e201008d8012d67b70d9ec51687181744024e015b4d37fae1a37765"
+      "sha256": "d7821a54c34cc34c778fb1a32cebd3eafa6ed545c02a2a432668be36e92c9686"
     },
     {
-      "bytes": 765,
+      "bytes": 1096,
+      "file": "website/es.json.gz",
+      "sha256": "8dc265f82d5479a8fa6b2207ba376c04b934eef227862be380d11a8c41e1608d"
+    },
+    {
+      "bytes": 57366,
+      "file": "website/fi.json.gz",
+      "sha256": "164a4fd911b489df9548f4feee2cfbc8100ee2da6cb521f1d2398ab66f89cc8d"
+    },
+    {
+      "bytes": 1184,
+      "file": "website/fr.json.gz",
+      "sha256": "2d8656898a58f4627d4bf0c1298390d4b3be30085036347648ee3b17df86c010"
+    },
+    {
+      "bytes": 63153,
+      "file": "website/hr.json.gz",
+      "sha256": "fac2ebdbac6a588dc736500df80b47ca6092be4203f655429d6df90d9b520178"
+    },
+    {
+      "bytes": 8967,
+      "file": "website/hu.json.gz",
+      "sha256": "f22ff3147c177655ea0acbc831db0d1180714cf788120e91db20c7c9f69a331c"
+    },
+    {
+      "bytes": 788,
+      "file": "website/id.json.gz",
+      "sha256": "406b670fad28d23073c9b692e4b2da4eadac5d7a7372699c027804477c3aa788"
+    },
+    {
+      "bytes": 12553,
       "file": "website/import-manifest.json",
-      "sha256": "a29a7ef41e34a07b3f75ada0d9d19ca1d4bb42c87e8bae0cfc9c50933c847d9c"
+      "sha256": "bd909f9884508590a34334af66fecdd60702d27f9b2edfbe1778a933ebbc0abc"
+    },
+    {
+      "bytes": 55956,
+      "file": "website/it.json.gz",
+      "sha256": "39cb0c5848e0ed2d6461dd0dcfac5735ab30fcc1cd8d0347d6583499121e1051"
+    },
+    {
+      "bytes": 7102,
+      "file": "website/ja.json.gz",
+      "sha256": "f844a9aa0bd87923b6af116597a2292e77924837236e15334e1b6dfa3bc4b707"
+    },
+    {
+      "bytes": 26609,
+      "file": "website/ko.json.gz",
+      "sha256": "5316ccaef051b7500a0b6a0564c3d2a94073049d2f61418e2c7df8807c460489"
+    },
+    {
+      "bytes": 67107,
+      "file": "website/lt.json.gz",
+      "sha256": "b8e42a033e7b09d887b4b1632591205e750a94760bf620dd90e8d3cd4ca57324"
+    },
+    {
+      "bytes": 42259,
+      "file": "website/ms.json.gz",
+      "sha256": "11c1a1fe3cfd9ccf7a7c3866d41b5171ecba5ac893dc76e9113e5d86c8ca8ac7"
+    },
+    {
+      "bytes": 64329,
+      "file": "website/nl.json.gz",
+      "sha256": "5018cea28e38eb84424e2b46bd9bb74602fd7ed2fa093804f5de3099e8dc754d"
+    },
+    {
+      "bytes": 70943,
+      "file": "website/no.json.gz",
+      "sha256": "5d9fdffb2f32fae096e6f2bef7664f87b8ed56942d7ad5b2af0ff6ac0e809117"
+    },
+    {
+      "bytes": 33819,
+      "file": "website/pl.json.gz",
+      "sha256": "dc87c21fdf04f711af139600fb7e0d409c105238b40eee01d14ec0189e9c00a1"
+    },
+    {
+      "bytes": 55124,
+      "file": "website/pt.json.gz",
+      "sha256": "67ce3226f9a51cc0868afb5f169521c8dac80a258dcf4c838f97494059f7cef7"
+    },
+    {
+      "bytes": 61794,
+      "file": "website/ro.json.gz",
+      "sha256": "afe9130f48914532a1228328f8c63ad70596eb4c7830375680e033583671d0ef"
+    },
+    {
+      "bytes": 66270,
+      "file": "website/ru.json.gz",
+      "sha256": "9dfdbd2fcd01a3c81b620576fa6352910ea68bd2dd6531d20ec9c752f3e946b2"
+    },
+    {
+      "bytes": 65904,
+      "file": "website/sk.json.gz",
+      "sha256": "700401d4753fd62a39aab49b04e6324e65b7e10cbaa8e86df537a2333c8923c6"
+    },
+    {
+      "bytes": 60721,
+      "file": "website/sl.json.gz",
+      "sha256": "6a6f30aea4f9f75af3eadc7c04051598a6a8084356ccdb90b2d282c6cbcb93e8"
+    },
+    {
+      "bytes": 66681,
+      "file": "website/sv.json.gz",
+      "sha256": "ccdb65d93fbb173e9dd83d980de38e95d5c2c0b2ad1165831e3ea655271391f7"
+    },
+    {
+      "bytes": 64752,
+      "file": "website/th.json.gz",
+      "sha256": "01b9b46fc32e5c37a876d395caea0dccb323851421d13ca287989eece15333ea"
+    },
+    {
+      "bytes": 69582,
+      "file": "website/tr.json.gz",
+      "sha256": "74255303d8b38aa311fcab27c332f3b5dc5d7e38f1536ddbd40c154e8328a3eb"
+    },
+    {
+      "bytes": 667,
+      "file": "website/vi.json.gz",
+      "sha256": "b86508e22da62a71d712ea7b8b7c097d4d39cdd6d985b8bf46a3579f157f704a"
+    },
+    {
+      "bytes": 10489,
+      "file": "website/zh.json.gz",
+      "sha256": "808d8c3c635c0d18ed9a653e7a50a00825babdbc84ec2fd5eb95083ff33b9117"
     }
   ],
   "automaticChecksAreHumanReview": false,
   "containsSyntheticDefinitions": true,
   "counts": {
-    "accepted": 40970,
+    "accepted": 52568,
     "humanReviewed": 0,
     "invalidDrafts": 9,
-    "jobs": 41023,
-    "machineChecked": 288,
-    "notGenerated": 27,
-    "pending": 53,
-    "sourceImported": 40682,
-    "validDrafts": 40987
+    "jobs": 53964,
+    "machineChecked": 7081,
+    "notGenerated": 209,
+    "pending": 1396,
+    "sourceImported": 45487,
+    "validDrafts": 53746
   },
   "definitionOrigins": {
-    "model_generated": 288,
-    "source_imported": 40682
+    "model_generated": 7081,
+    "source_imported": 45487
   },
   "format": "crow-chinese-dictionary/1",
   "license": "CC BY-SA 4.0",
   "name": "crow-chinese-dictionary",
-  "sourceRecordCount": 42027,
+  "sourceRecordCount": 52943,
   "sourceRecordLocation": "entries.jsonl.gz",
   "sources": [
     {
@@ -64,6 +219,17 @@
       "sourceId": "cc-cidict",
       "sourceSha256": "8495b71d5fca4ea00a2577a20f26a003a86384817781b27d8afca6a4b27e9f9f",
       "sourceUrl": ""
+    },
+    {
+      "attribution": "CC-CEDICT contributors / MDBG",
+      "language": "en",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "2026-10-09",
+      "sourceFamily": "cedict-family",
+      "sourceId": "cedict",
+      "sourceSha256": "2af6c2363448f49823ec403dfc30d99b553016ccdb8672bc614905430163412c",
+      "sourceUrl": "https://www.mdbg.net/chinese/dictionary?page=cedict"
     },
     {
       "attribution": "David Houstin / Chine Informations contributors",
@@ -99,6 +265,28 @@
       "sourceUrl": "https://handedict.zydeo.net/"
     },
     {
+      "attribution": "Yanis Zafirópulos; Complete HSK Vocabulary contributors",
+      "language": "en",
+      "license": "MIT",
+      "licenseUrl": "https://opensource.org/license/mit",
+      "snapshot": "62bf014ecd3be6322d62db907040fffe6cb8f570e42603b38963d2cc242c4e95",
+      "sourceFamily": "hsk-open",
+      "sourceId": "hsk-open",
+      "sourceSha256": "62bf014ecd3be6322d62db907040fffe6cb8f570e42603b38963d2cc242c4e95",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "English Wiktionary contributors; Complete HSK Vocabulary contributors (MIT); credited Tatoeba sentence authors (CC BY 2.0 FR); dictionary contributors credited with each reading source.",
+      "language": "en",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "2026-10-22 · source licenses and provenance per entry",
+      "sourceFamily": "phrasebook-en",
+      "sourceId": "phrasebook-en",
+      "sourceSha256": "42bb380cb4648fcf33034ecd658aa7ea65bfd60883340d616e648636f06bbe44",
+      "sourceUrl": "https://kaikki.org/dictionary/Chinese/"
+    },
+    {
       "attribution": "Czech Wiktionary contributors; Kaikki / Wiktextract",
       "language": "cs",
       "license": "CC BY-SA 4.0",
@@ -107,6 +295,17 @@
       "sourceFamily": "wiktionary-family",
       "sourceId": "raw-wiktionary-cs",
       "sourceSha256": "a90dd2570a4eec542f4c79bab098d5ecc1218bb40e4463dc1a8d6026455a069f",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "German Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "de",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "original-sha256:01132f9eddf70a53e8d767fe26850063142201a3386b1dd4b3627184be2d03ad",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "raw-wiktionary-de",
+      "sourceSha256": "01132f9eddf70a53e8d767fe26850063142201a3386b1dd4b3627184be2d03ad",
       "sourceUrl": ""
     },
     {
@@ -154,6 +353,17 @@
       "sourceUrl": ""
     },
     {
+      "attribution": "Polish Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "pl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "original-sha256:9847b86c4058ecf4ca5341f9ac2f4d93974a1177a9028deeba9045aca0c117c2",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "raw-wiktionary-pl",
+      "sourceSha256": "9847b86c4058ecf4ca5341f9ac2f4d93974a1177a9028deeba9045aca0c117c2",
+      "sourceUrl": ""
+    },
+    {
       "attribution": "Portuguese Wiktionary contributors; Kaikki / Wiktextract",
       "language": "pt",
       "license": "CC BY-SA 4.0",
@@ -176,6 +386,17 @@
       "sourceUrl": ""
     },
     {
+      "attribution": "English Wiktionary contributors; extracted by Kaikki / Wiktextract",
+      "language": "en",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "2026-10-03",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "wiktionary",
+      "sourceSha256": "3de40741f94c1756696f104f26cde83490181dd2bc8aaa1a3752e0005971223c",
+      "sourceUrl": "https://kaikki.org/dictionary/Chinese/"
+    },
+    {
       "attribution": "Czech Wiktionary contributors; Kaikki / Wiktextract",
       "language": "cs",
       "license": "CC BY-SA 4.0",
@@ -184,6 +405,28 @@
       "sourceFamily": "wiktionary-family",
       "sourceId": "wiktionary-cs",
       "sourceSha256": "23619cb09cf8169ce0fcdd55d3471ff143edbb98457d6a5d357075f6df801e9b",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "German Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "de",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "2026-10-14 · dump 2026-10-01 · import 2026-10-15",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "wiktionary-de",
+      "sourceSha256": "5cbd46d56c6c1722e55945d179ad3c86e5774ed72546353f2a91b2f3fe1a9f58",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "Greek Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "el",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "2026-10-03 · dump 2026-10-01 · import 2026-10-15",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "wiktionary-el",
+      "sourceSha256": "a173e0119efe65d415b4c6e01b814c2753d5ad7a540e007361dd6c3cc9fb4e38",
       "sourceUrl": ""
     },
     {
@@ -239,6 +482,17 @@
       "sourceFamily": "wiktionary-family",
       "sourceId": "wiktionary-ko",
       "sourceSha256": "f07991f5ed16d0b66695e69e12b68596ce9a9a21bd5cdc27f4fc23a935676292",
+      "sourceUrl": ""
+    },
+    {
+      "attribution": "Polish Wiktionary contributors; Kaikki / Wiktextract",
+      "language": "pl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "snapshot": "2026-10-02 · dump 2026-09-01 · import 2026-10-15",
+      "sourceFamily": "wiktionary-family",
+      "sourceId": "wiktionary-pl",
+      "sourceSha256": "b91cd7216e6c2734cfd5e3009fe5011ffff4304810a6e4264747900ce4267a22",
       "sourceUrl": ""
     },
     {

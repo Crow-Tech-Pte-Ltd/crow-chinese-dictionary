@@ -11,6 +11,12 @@ Source article URLs: see each entry.
 CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
 Snapshot: 1.27 · 2026-09-26
 
+cedict
+CC-CEDICT contributors / MDBG
+https://www.mdbg.net/chinese/dictionary?page=cedict
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: 2026-10-09
+
 cfdict
 David Houstin / Chine Informations contributors
 Source article URLs: see each entry.
@@ -29,11 +35,51 @@ https://handedict.zydeo.net/
 CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
 Snapshot: 2026-10-09
 
+hsk-open
+Yanis Zafirópulos; Complete HSK Vocabulary contributors
+Source article URLs: see each entry.
+MIT — https://opensource.org/license/mit
+Snapshot: 62bf014ecd3be6322d62db907040fffe6cb8f570e42603b38963d2cc242c4e95
+MIT License
+
+Copyright (c) 2026 Yanis Zafirópulos
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+phrasebook-en
+English Wiktionary contributors; Complete HSK Vocabulary contributors (MIT); credited Tatoeba sentence authors (CC BY 2.0 FR); dictionary contributors credited with each reading source.
+https://kaikki.org/dictionary/Chinese/
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: 2026-10-22 · source licenses and provenance per entry
+
 raw-wiktionary-cs
 Czech Wiktionary contributors; Kaikki / Wiktextract
 Source article URLs: see each entry.
 CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
 Snapshot: original-sha256:a90dd2570a4eec542f4c79bab098d5ecc1218bb40e4463dc1a8d6026455a069f
+
+raw-wiktionary-de
+German Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: original-sha256:01132f9eddf70a53e8d767fe26850063142201a3386b1dd4b3627184be2d03ad
 
 raw-wiktionary-fr
 French Wiktionary contributors; Kaikki / Wiktextract
@@ -59,6 +105,12 @@ Source article URLs: see each entry.
 CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
 Snapshot: original-sha256:4eb06b4f1b1d55137099619db7b31f939b79c18c15cfc9652e4d27d1861c52f3
 
+raw-wiktionary-pl
+Polish Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: original-sha256:9847b86c4058ecf4ca5341f9ac2f4d93974a1177a9028deeba9045aca0c117c2
+
 raw-wiktionary-pt
 Portuguese Wiktionary contributors; Kaikki / Wiktextract
 Source article URLs: see each entry.
@@ -71,8 +123,26 @@ Source article URLs: see each entry.
 CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
 Snapshot: original-sha256:2a924292f5a2de0d4036618c6664d092d9588f7aa8274a7abe30d858e0ed32d0
 
+wiktionary
+English Wiktionary contributors; extracted by Kaikki / Wiktextract
+https://kaikki.org/dictionary/Chinese/
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: 2026-10-03
+
 wiktionary-cs
 Czech Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: 2026-10-03 · dump 2026-10-01 · import 2026-10-15
+
+wiktionary-de
+German Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: 2026-10-14 · dump 2026-10-01 · import 2026-10-15
+
+wiktionary-el
+Greek Wiktionary contributors; Kaikki / Wiktextract
 Source article URLs: see each entry.
 CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
 Snapshot: 2026-10-03 · dump 2026-10-01 · import 2026-10-15
@@ -107,6 +177,12 @@ Korean Wiktionary contributors; Kaikki / Wiktextract
 Source article URLs: see each entry.
 CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
 Snapshot: 2026-10-02 · dump 2026-10-01 · import 2026-10-15
+
+wiktionary-pl
+Polish Wiktionary contributors; Kaikki / Wiktextract
+Source article URLs: see each entry.
+CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot: 2026-10-02 · dump 2026-09-01 · import 2026-10-15
 
 wiktionary-pt
 Portuguese Wiktionary contributors; Kaikki / Wiktextract

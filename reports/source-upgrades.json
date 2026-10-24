@@ -1,0 +1,37 @@
+{
+  "kind": "existing_machine_only_english_quality_upgrade",
+  "sourceFingerprint": "0445a41a7dfc2916f3f784052187aa1d2292166b47570d51dd9e71184f948860",
+  "baselineMachineOnlyEnglishHeads": 80131,
+  "supplementHeadsAtExistingMachineOnlyEnglishCoverage": 6982,
+  "candidateHeadsWithExactBaselineAiReading": 5737,
+  "candidateLexicalReadings": 5737,
+  "sourceOnlyQualityUpgradeJobs": 4805,
+  "sourceOnlyQualityUpgradeHeads": 4805,
+  "newHeadwords": 0,
+  "modelGeneratedDefinitions": 0,
+  "generationApiCalls": 0,
+  "heldJobs": 932,
+  "holdReasons": {
+    "existing_nonmachine_english_alias_overlap": 2,
+    "explicit_english_source_reading_required": 98,
+    "long_expression_needs_lexical_review": 1,
+    "proper_name_variant_or_abbreviation_needs_review": 912,
+    "source_spoken_variety_needs_review": 3
+  },
+  "excludedSourceRows": {
+    "missing_invalid_or_conflicting_source_reading": 957,
+    "same_reading_baseline_ai_not_proven": 340
+  },
+  "recoveryRows": 1297,
+  "verifiedEnglishSources": [
+    {
+      "sourceId": "wiktionary-en-upstream",
+      "sha256": "c85fbc7d5eba6c68d71298f844979a778471ef0d4aceccd25e2e0756cfdb22b6",
+      "license": "CC BY-SA 4.0",
+      "rowsReferenced": 5995
+    }
+  ],
+  "automaticChecksAreHumanReview": false,
+  "scope": "A separate source-only quality adjunct for existing AI-only English heads. Existing missing-word jobs, inventory and release are unchanged.",
+  "selectionPolicy": "Frozen identity/reading mapping; exact baseline-AI reading comparison; all eligible compatible non-AI English source POS/sense rows grouped without caps or cherry-picking. Combined sense overflow holds the entire job. Baseline AI is never source evidence."
+}
